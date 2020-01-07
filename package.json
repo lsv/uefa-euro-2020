@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "ajv": "^6.10.2",
+    "jsonlint": "^1.6.3"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jsonlint data.json -q && node tests/index.js"
+  }
+}

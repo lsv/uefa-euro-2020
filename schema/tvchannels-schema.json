@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "tvchannels-schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "TV channel ID",
+        "type": "integer"
+      },
+      "name": {
+        "description": "TV channel name",
+        "type": "string"
+      },
+      "icon": {
+        "description": "Icon for the tv channel",
+        "type": "string"
+      },
+      "country": {
+        "description": "TV channel country",
+        "type": "string"
+      },
+      "iso2": {
+        "description": "TV channel country, in ISO2 format",
+        "type": "string"
+      },
+      "lang": {
+        "description": "The spoken language codes on the channel",
+        "type": "array",
+        "items": {
+          "description": "The spoken language code",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

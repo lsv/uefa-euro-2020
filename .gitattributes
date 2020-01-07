@@ -1,0 +1,5 @@
+*.json          text eol=crlf
+.travis.yml     export-ignore
+.gitignore      export-ignore
+tests           export-ignore
+.gitattributes  export-ignore

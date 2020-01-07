@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "data-schema.json",
+  "title": "Euro 2020",
+  "description": "Match plan, with matches, stadiums, dates and results",
+  "type": "object",
+  "properties": {
+    "stadiums": {
+      "description": "Stadiums",
+      "$ref": "stadium-schema.json"
+    },
+    "tvchannels": {
+      "description": "TV Channels",
+      "$ref": "tvchannels-schema.json"
+    },
+    "teams": {
+      "description": "Teams",
+      "$ref": "teams-schema.json"
+    },
+    "groups": {
+      "description": "The group phase",
+      "$ref": "groups-schema.json"
+    },
+    "knockoutphases": {
+      "description": "The knockout phases",
+      "type": "object",
+      "properties": {
+        "round16": {
+          "description": "The round of 16 matches",
+          "properties": {
+            "id": {
+              "description": "The ID of the knockout phase",
+              "type": "string"
+            },
+            "name": {
+              "description": "The name of the knouckout phase",
+              "type": "string"
+            },
+            "matches": {
+              "minItems": 8,
+              "maxItems": 8,
+              "type": "array",
+              "items": {
+                "description": "Knockout phase matches",
+                "$ref": "match-schema.json"
+              }
+            }
+          }
+        },
+        "round8": {
+          "description": "The round of 8 matches (quarter finals)",
+          "properties": {
+            "id": {
+              "description": "The ID of the knockout phase",
+              "type": "string"
+            },
+            "name": {
+              "description": "The name of the knouckout phase",
+              "type": "string"
+            },
+            "matches": {
+              "minItems": 4,
+              "maxItems": 4,
+              "type": "array",
+              "items": {
+                "description": "Knockout phase matches",
+                "$ref": "match-schema.json"
+              }
+            }
+          }
+        },
+        "round4": {
+          "description": "The round of 4 matches (semi finals)",
+          "properties": {
+            "id": {
+              "description": "The ID of the knockout phase",
+              "type": "string"
+            },
+            "name": {
+              "description": "The name of the knouckout phase",
+              "type": "string"
+            },
+            "matches": {
+              "minItems": 2,
+              "maxItems": 2,
+              "type": "array",
+              "items": {
+                "description": "Knockout phase matches",
+                "$ref": "match-schema.json"
+              }
+            }
+          }
+        },
+        "round2": {
+          "description": "The round of 2 matches (final)",
+          "properties": {
+            "id": {
+              "description": "The ID of the knockout phase",
+              "type": "string"
+            },
+            "name": {
+              "description": "The name of the knouckout phase",
+              "type": "string"
+            },
+            "matches": {
+              "minItems": 1,
+              "maxItems": 1,
+              "type": "array",
+              "items": {
+                "description": "Knockout phase matches",
+                "$ref": "match-schema.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

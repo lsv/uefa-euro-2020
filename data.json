@@ -1,0 +1,760 @@
+{
+  "stadiums": [
+    {
+      "id": 1,
+      "name": "Wembley Stadium",
+      "city": "London",
+      "country": "England",
+      "coords": {
+        "latitude": 51.5552193,
+        "longitude": -0.2772329
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wembley-Stadion_2013_16x10.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Allianz Arena",
+      "city": "Munich",
+      "country": "Germany",
+      "coords": {
+        "latitude": 48.218775,
+        "longitude": 11.624753
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Stadio Olimpico",
+      "city": "Rome",
+      "country": "Italy",
+      "coords": {
+        "latitude": 41.933886,
+        "longitude": 12.454786
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Stadio_Olimpico_2008.JPG"
+    },
+    {
+      "id": 4,
+      "name": "Olympic Stadium",
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "coords": {
+        "latitude": 40.4299621,
+        "longitude": -49.9174133
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Baku_Olympic_Stadium_panorama_1.JPG"
+    },
+    {
+      "id": 5,
+      "name": "Puskás Aréna",
+      "city": "Budapest",
+      "country": "Hungary",
+      "coords": {
+        "latitude": 47.503094,
+        "longitude": 19.0982
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pusk%C3%A1s_Ar%C3%A9na.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Johan Cruyff Arena",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "coords": {
+        "latitude": 52.314167,
+        "longitude": 4.941944
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Amsterdam_Arena_Roof_Open.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Parken Stadium",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "coords": {
+        "latitude": 55.702469,
+        "longitude": 12.572203
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/DONG_Cup_finalen_2004_Parken.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Aviva Stadium",
+      "city": "Dublin",
+      "country": "Ireland",
+      "coords": {
+        "latitude": 53.335139,
+        "longitude": -6.228333
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Aviva_Stadium%28Dublin_Arena%29.JPG"
+    },
+    {
+      "id": 9,
+      "name": "Hampden Park",
+      "city": "Glasgow",
+      "country": "Scotland",
+      "coords": {
+        "latitude": 55.825864,
+        "longitude": -4.252003
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Panoramio_-_V%26A_Dudush_-_Scotland_National_Stadium.jpg"
+    },
+    {
+      "id": 10,
+      "name": "San Mamés",
+      "city": "Bilbao",
+      "country": "Spain",
+      "coords": {
+        "latitude": 43.264284,
+        "longitude": -2.950366
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/San_Mames%2C_Bilbao%2C_Euskal_Herria_-_Basque_Country.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Arena Națională",
+      "city": "Bucharest",
+      "country": "Romania",
+      "coords": {
+        "latitude": 44.437208,
+        "longitude": 26.152508
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stadionul_National_-_National_Arena_3.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Krestovsky Stadium",
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "coords": {
+        "latitude": 59.972953,
+        "longitude": 30.220533
+      },
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Spb_06-2017_img42_Krestovsky_Stadium.jpg"
+    }
+  ],
+  "tvchannels": [
+    {
+      "id": 1,
+      "name": "TV3",
+      "icon": "",
+      "country": "Denmark",
+      "iso2": "DK",
+      "lang": [
+        "dk"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TV3+",
+      "icon": "",
+      "country": "Denmark",
+      "iso2": "DK",
+      "lang": [
+        "dk"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "BEL",
+      "name": "Belgium",
+      "flag": {
+        "unicode": "\uD83C\uDDE7\uD83C\uDDEA",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
+      },
+      "emoji": {
+        "slack": "U0001f1e7\\U0001f1ea"
+      }
+    },
+    {
+      "id": "ITA",
+      "name": "Italy",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "ENG",
+      "name": "England",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "GER",
+      "name": "Germany",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "ESP",
+      "name": "Spain",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "UKR",
+      "name": "Ukraine",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "FRA",
+      "name": "France",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "POL",
+      "name": "Poland",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "SUI",
+      "name": "Switzerland",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "CRO",
+      "name": "Croatia",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "NED",
+      "name": "Netherlands",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "RUS",
+      "name": "Russia",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "POR",
+      "name": "Portugal",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "TUR",
+      "name": "Turkey",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "DEN",
+      "name": "Denmark",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "AUT",
+      "name": "Austria",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "SWE",
+      "name": "Sweden",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "CZE",
+      "name": "Czech Republic",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "WAL",
+      "name": "Wales",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "FIN",
+      "name": "Finland",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "TBD1",
+      "name": "To be decided",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "TBD2",
+      "name": "To be decided",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "TBD3",
+      "name": "To be decided",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    },
+    {
+      "id": "TBD4",
+      "name": "To be decided",
+      "flag": {
+        "unicode": "",
+        "url": ""
+      },
+      "emoji": {
+        "code": "",
+        "string": ""
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "a",
+      "name": "Group A",
+      "winner": null,
+      "runnerup": null,
+      "thirdplace": null,
+      "matches": [
+        {
+          "id": 1,
+          "name": 1,
+          "matchtype": "group",
+          "home_team": "TUR",
+          "away_team": "ITA",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-12T21:00:00+02:00",
+          "stadium": 3,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 2,
+          "name": 2,
+          "matchtype": "group",
+          "home_team": "WAL",
+          "away_team": "SUI",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-13T15:00:00+02:00",
+          "stadium": 4,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 13,
+          "name": 13,
+          "matchtype": "group",
+          "home_team": "TUR",
+          "away_team": "WAL",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-17T18:00:00+02:00",
+          "stadium": 4,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 14,
+          "name": 14,
+          "matchtype": "group",
+          "home_team": "ITA",
+          "away_team": "SUI",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-17T21:00:00+02:00",
+          "stadium": 3,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 25,
+          "name": 25,
+          "matchtype": "group",
+          "home_team": "SUI",
+          "away_team": "TUR",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-21T18:00:00+02:00",
+          "stadium": 4,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 26,
+          "name": 26,
+          "matchtype": "group",
+          "home_team": "ITA",
+          "away_team": "WAL",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-21T18:00:00+02:00",
+          "stadium": 3,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "name": "Group B",
+      "winner": null,
+      "runnerup": null,
+      "thirdplace": null,
+      "matches": [
+        {
+          "id": 3,
+          "name": 3,
+          "matchtype": "group",
+          "home_team": "DEN",
+          "away_team": "FIN",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-13T18:00:00+02:00",
+          "stadium": 7,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 4,
+          "name": 4,
+          "matchtype": "group",
+          "home_team": "BEL",
+          "away_team": "RUS",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-13T21:00:00+02:00",
+          "stadium": 12,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 15,
+          "name": 15,
+          "matchtype": "group",
+          "home_team": "FIN",
+          "away_team": "RUS",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-17T15:00:00+02:00",
+          "stadium": 12,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 16,
+          "name": 16,
+          "matchtype": "group",
+          "home_team": "DEN",
+          "away_team": "BEL",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-18T21:00:00+02:00",
+          "stadium": 7,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 27,
+          "name": 27,
+          "matchtype": "group",
+          "home_team": "RUS",
+          "away_team": "DEN",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-22T21:00:00+02:00",
+          "stadium": 7,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "id": 28,
+          "name": 28,
+          "matchtype": "group",
+          "home_team": "FIN",
+          "away_team": "BEL",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-22T21:00:00+02:00",
+          "stadium": 12,
+          "tvchannels": [
+          ],
+          "finished": false,
+          "matchday": 1
+        }
+      ]
+    }
+  ],
+  "knockoutphases": {
+    "round16": {
+      "id": "round16",
+      "name": "Round of 16",
+      "matches": [
+        {
+          "name": 49,
+          "type": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "type": "winner",
+              "group": "a"
+            },
+            "away_team": {
+              "type": "runnerup",
+              "group": "b"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": 4,
+          "date": "2018-06-30T21:00:00+03:00",
+          "stadium": 11,
+          "channels": [
+            4,
+            13,
+            15
+          ],
+          "finished": true,
+          "matchday": 4
+        }
+      ]
+    },
+    "round8": {
+      "id": "round8",
+      "name": "Round of 8",
+      "matches": [
+        {
+          "name": 50,
+          "type": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "type": "winner",
+              "match": 49
+            },
+            "away_team": {
+              "type": "winner",
+              "match": 50
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": 4,
+          "date": "2018-06-30T21:00:00+03:00",
+          "stadium": 11,
+          "channels": [
+            4,
+            13,
+            15
+          ],
+          "finished": true,
+          "matchday": 4
+        }
+      ]
+    },
+    "final": {
+      "id": "final",
+      "name": "Final",
+      "matches": [
+        {
+          "name": 50,
+          "type": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "type": "winner",
+              "match": 49
+            },
+            "away_team": {
+              "type": "winner",
+              "match": 50
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": 4,
+          "date": "2018-06-30T21:00:00+03:00",
+          "stadium": 11,
+          "channels": [
+            4,
+            13,
+            15
+          ],
+          "finished": true,
+          "matchday": 4
+        }
+      ]
+    }
+  }
+}
