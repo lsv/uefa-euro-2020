@@ -4,6 +4,6 @@
     "jsonlint": "^1.6.3"
   },
   "scripts": {
-    "test": "node_modules/.bin/jsonlint data.json -q && node tests/index.js"
+    "test": "node_modules/.bin/jsonlint data.json -q && node --experimental-modules tests/schema.mjs"
   }
 }

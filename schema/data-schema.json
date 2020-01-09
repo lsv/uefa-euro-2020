@@ -1,119 +1,477 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "data-schema.json",
-  "title": "Euro 2020",
-  "description": "Match plan, with matches, stadiums, dates and results",
-  "type": "object",
-  "properties": {
-    "stadiums": {
-      "description": "Stadiums",
-      "$ref": "stadium-schema.json"
+  "definitions": {
+    "stadiumid": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
     },
-    "tvchannels": {
-      "description": "TV Channels",
-      "$ref": "tvchannels-schema.json"
+    "teamid": {
+      "type": ["string", "null"],
+      "enum": [null, "BEL", "ITA", "ENG", "GER", "ESP", "UKR", "FRA", "POL", "SUI", "CRO", "NED", "RUS", "POR", "TUR", "DEN", "AUT", "SWE", "CZE", "WAL", "FIN", "TBD1", "TBD2", "TBD3", "TBD4"]
     },
-    "teams": {
-      "description": "Teams",
-      "$ref": "teams-schema.json"
-    },
-    "groups": {
-      "description": "The group phase",
-      "$ref": "groups-schema.json"
-    },
-    "knockoutphases": {
-      "description": "The knockout phases",
-      "type": "object",
-      "properties": {
-        "round16": {
-          "description": "The round of 16 matches",
-          "properties": {
-            "id": {
-              "description": "The ID of the knockout phase",
-              "type": "string"
-            },
-            "name": {
-              "description": "The name of the knouckout phase",
-              "type": "string"
-            },
-            "matches": {
-              "minItems": 8,
-              "maxItems": 8,
-              "type": "array",
-              "items": {
-                "description": "Knockout phase matches",
-                "$ref": "match-schema.json"
+    "stadiumdata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "city", "country", "coords", "image"],
+        "properties": {
+          "id": {
+            "description": "Stadium ID",
+            "$ref": "#/definitions/stadiumid"
+          },
+          "name": {
+            "description": "Stadium name",
+            "type": "string"
+          },
+          "city": {
+            "description": "The city the stadium is located in",
+            "type": "string"
+          },
+          "country": {
+            "description": "The country the stadium is located in",
+            "type": "string"
+          },
+          "coords": {
+            "description": "The coordinates for the stadium",
+            "type": "object",
+            "required": ["latitude", "longitude"],
+            "properties": {
+              "latitude": {
+                "description": "The latitude for the stadium",
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "longitude": {
+                "description": "The longitude for the stadium",
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
               }
             }
+          },
+          "image": {
+            "description": "Image of the stadium",
+            "type": "string"
           }
-        },
-        "round8": {
-          "description": "The round of 8 matches (quarter finals)",
-          "properties": {
-            "id": {
-              "description": "The ID of the knockout phase",
+        }
+      }
+    },
+    "tvchannelsdata":{
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "TV channel ID",
+            "type": "integer"
+          },
+          "name": {
+            "description": "TV channel name",
+            "type": "string"
+          },
+          "icon": {
+            "description": "Icon for the tv channel",
+            "type": "string"
+          },
+          "country": {
+            "description": "TV channel country",
+            "type": "string"
+          },
+          "iso2": {
+            "description": "TV channel country, in ISO2 format",
+            "type": "string"
+          },
+          "lang": {
+            "description": "The spoken language codes on the channel",
+            "type": "array",
+            "items": {
+              "description": "The spoken language code",
               "type": "string"
-            },
-            "name": {
-              "description": "The name of the knouckout phase",
-              "type": "string"
-            },
-            "matches": {
-              "minItems": 4,
-              "maxItems": 4,
-              "type": "array",
-              "items": {
-                "description": "Knockout phase matches",
-                "$ref": "match-schema.json"
-              }
             }
           }
-        },
-        "round4": {
-          "description": "The round of 4 matches (semi finals)",
-          "properties": {
-            "id": {
-              "description": "The ID of the knockout phase",
-              "type": "string"
-            },
-            "name": {
-              "description": "The name of the knouckout phase",
-              "type": "string"
-            },
-            "matches": {
-              "minItems": 2,
-              "maxItems": 2,
-              "type": "array",
-              "items": {
-                "description": "Knockout phase matches",
-                "$ref": "match-schema.json"
-              }
-            }
-          }
-        },
-        "round2": {
-          "description": "The round of 2 matches (final)",
-          "properties": {
-            "id": {
-              "description": "The ID of the knockout phase",
-              "type": "string"
-            },
-            "name": {
-              "description": "The name of the knouckout phase",
-              "type": "string"
-            },
-            "matches": {
-              "minItems": 1,
-              "maxItems": 1,
-              "type": "array",
-              "items": {
-                "description": "Knockout phase matches",
-                "$ref": "match-schema.json"
+        }
+      }
+    },
+    "teamsdata": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "description": "Description of a team",
+        "type": "object",
+        "required": ["id", "name", "rank", "flag"],
+        "properties": {
+          "id": {
+            "description": "The team ID",
+            "$ref": "#/definitions/teamid"
+          },
+          "name": {
+            "description": "The team name",
+            "type": "string"
+          },
+          "rank": {
+            "description": "The team qualification rank",
+            "type": "integer"
+          },
+          "flag": {
+            "type": "object",
+            "required": ["unicode", "url", "slackcode"],
+            "properties": {
+              "unicode": {
+                "description": "The flag as unicode",
+                "type": "string"
+              },
+              "url": {
+                "description": "URL to the flag",
+                "type": "string"
+              },
+              "slackcode": {
+                "description": "The code to use on slack for this flag",
+                "type": "string"
               }
             }
           }
         }
       }
+    },
+    "groupdata": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["id", "winner", "runnerup", "thirdplace", "matches"],
+        "properties": {
+          "id": {
+            "description": "The group ID",
+            "type": "string"
+          },
+          "winner": {
+            "description": "The winner of the group, when groups is finished",
+            "$ref": "#/definitions/teamid"
+          },
+          "runnerup": {
+            "description": "The runnerup of the group, when groups are decided",
+            "$ref": "#/definitions/teamid"
+          },
+          "thirdplace": {
+            "description": "The thirdplace of the group, when groups are decided",
+            "$ref": "#/definitions/teamid"
+          },
+          "matches": {
+            "description": "The matches for the group",
+            "type": "array",
+            "minItems": 6,
+            "maxItems": 6,
+            "items": {
+              "$ref": "#/definitions/matchdata"
+            }
+          }
+        }
+      }
+    },
+    "knockoutdata": {
+      "type": "object",
+      "required": [
+        "round16",
+        "round8",
+        "round4",
+        "round2"
+      ],
+      "properties": {
+        "round16": {
+          "description": "The round of 16 matches",
+          "allOf": [
+            {
+              "$ref": "#/definitions/knockoutrounddata"
+            },
+            {
+              "properties": {
+                "matches": {
+                  "minItems": 8,
+                  "maxItems": 8
+                }
+              }
+            }
+          ]
+        },
+        "round8": {
+          "description": "The round of 8 matches (quarter finals)",
+          "allOf": [
+            {
+              "$ref": "#/definitions/knockoutrounddata"
+            },
+            {
+              "properties": {
+                "matches": {
+                  "minItems": 4,
+                  "maxItems": 4
+                }
+              }
+            }
+          ]
+        },
+        "round4": {
+          "description": "The round of 4 matches (semi finals)",
+          "allOf": [
+            {
+              "$ref": "#/definitions/knockoutrounddata"
+            },
+            {
+              "properties": {
+                "matches": {
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              }
+            }
+          ]
+        },
+        "round2": {
+          "description": "The round of 2 matches (final)",
+          "allOf": [
+            {
+              "$ref": "#/definitions/knockoutrounddata"
+            },
+            {
+              "properties": {
+                "matches": {
+                  "minItems": 1,
+                  "maxItems": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "knockoutrounddata": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "matches"
+      ],
+      "properties": {
+        "id": {
+          "description": "The ID of the knockout phase",
+          "type": "string"
+        },
+        "name": {
+          "description": "The name of the knouckout phase",
+          "type": "string"
+        },
+        "matches": {
+          "type": "array",
+          "items": {
+            "description": "Knockout phase matches",
+            "$ref": "#/definitions/matchdata"
+          }
+        }
+      }
+    },
+    "matchqualificationdata": {
+      "type": "object",
+      "required": [
+        "qualificationtype"
+      ],
+      "oneOf": [
+        {
+          "required": [
+            "match"
+          ]
+        },
+        {
+          "required": [
+            "thirdplace"
+          ]
+        },
+        {
+          "required": [
+            "group"
+          ]
+        }
+      ],
+      "properties": {
+        "qualificationtype": {
+          "description": "Either winner, runnerup or thirdplace",
+          "type": "string"
+        },
+        "match": {
+          "description": "Which match id should the team be taken from",
+          "type": "integer"
+        },
+        "thirdplace": {
+          "type": "string"
+        },
+        "group": {
+          "description": "Which group should the team be taken from",
+          "type": "string"
+        }
+      }
+    },
+    "matchdata": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "matchtype",
+        "home_team",
+        "away_team",
+        "home_result",
+        "away_result",
+        "date",
+        "stadium",
+        "tvchannels",
+        "finished",
+        "matchday"
+      ],
+      "if": {
+        "properties": {
+          "matchtype": {
+            "const": "knockout"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "qualification",
+          "home_penalty",
+          "away_penalty",
+          "winner"
+        ]
+      },
+      "properties": {
+        "id": {
+          "description": "The ID of the match",
+          "type": "integer"
+        },
+        "name": {
+          "description": "The name of the match",
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "teams_found": {
+          "description": "Are the teams found for this match yet",
+          "type": "boolean"
+        },
+        "qualification": {
+          "description": "How the qualification is for this match",
+          "type": "object",
+          "required": [
+            "home_team",
+            "away_team"
+          ],
+          "properties": {
+            "home_team": {
+              "description": "The home team",
+              "$ref": "#/definitions/matchqualificationdata"
+            },
+            "away_team": {
+              "description": "The away team",
+              "$ref": "#/definitions/matchqualificationdata"
+            }
+          }
+        },
+        "matchtype": {
+          "description": "The type of the match",
+          "type": "string"
+        },
+        "home_team": {
+          "description": "The home team ID",
+          "$ref": "#/definitions/teamid"
+        },
+        "away_team": {
+          "description": "The away team ID",
+          "$ref": "#/definitions/teamid"
+        },
+        "home_result": {
+          "description": "The goals scored by the home team",
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "away_result": {
+          "description": "The goals scored by the away team",
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "home_penalty": {
+          "description": "The goals scored by the home team in penalty shoot out",
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "away_penalty": {
+          "description": "The goals scored by the away team in penalty shoot out",
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "winner": {
+          "description": "The ID of the team who won the match",
+          "$ref": "#/definitions/teamid"
+        },
+        "date": {
+          "description": "The date of the match",
+          "type": "string"
+        },
+        "stadium": {
+          "description": "The ID of the stadium",
+          "$ref": "#/definitions/stadiumid"
+        },
+        "tvchannels": {
+          "type": "array",
+          "items": {
+            "description": "ID of the channels that are broadcasting the match",
+            "type": "integer"
+          }
+        },
+        "finished": {
+          "description": "Is the match finished",
+          "type": "boolean"
+        },
+        "matchday": {
+          "description": "The matchday number",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "title": "Euro 2020",
+  "description": "Match plan, with matches, stadiums, dates and results",
+  "type": "object",
+  "required": ["stadiums", "tvchannels", "teams", "groups", "knockoutphases"],
+  "properties": {
+    "stadiums": {
+      "description": "Stadiums",
+      "$ref": "#/definitions/stadiumdata"
+    },
+    "tvchannels": {
+      "description": "TV Channels",
+      "$ref": "#/definitions/tvchannelsdata"
+    },
+    "teams": {
+      "description": "Teams",
+      "$ref": "#/definitions/teamsdata"
+    },
+    "groups": {
+      "description": "The group phase",
+      "$ref": "#/definitions/groupdata"
+    },
+    "knockoutphases": {
+      "description": "The knockout phases",
+      "$ref": "#/definitions/knockoutdata"
     }
   }
 }

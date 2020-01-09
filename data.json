@@ -159,288 +159,241 @@
     {
       "id": "BEL",
       "name": "Belgium",
+      "rank": 1,
       "flag": {
         "unicode": "\uD83C\uDDE7\uD83C\uDDEA",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
-      },
-      "emoji": {
-        "slack": "U0001f1e7\\U0001f1ea"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
+        "slackcode": ":flag-be:"
       }
     },
     {
       "id": "ITA",
       "name": "Italy",
+      "rank": 2,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDEE\uD83C\uDDF9",
+        "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
+        "slackcode": ":flag-it:"
       }
     },
     {
       "id": "ENG",
       "name": "England",
+      "rank": 3,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F",
+        "url": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+        "slackcode": ":flag-england:"
       }
     },
     {
       "id": "GER",
       "name": "Germany",
+      "rank": 4,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDE9\uD83C\uDDEA",
+        "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
+        "slackcode": ":flag-de:"
       }
     },
     {
       "id": "ESP",
       "name": "Spain",
+      "rank": 5,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDEA\uD83C\uDDF8",
+        "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
+        "slackcode": ":flag-es:"
       }
     },
     {
       "id": "UKR",
       "name": "Ukraine",
+      "rank": 6,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDFA\uD83C\uDDE6",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+        "slackcode": ":flag-ua:"
       }
     },
     {
       "id": "FRA",
       "name": "France",
+      "rank": 7,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDEB\uD83C\uDDF7",
+        "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+        "slackcode": ":flag-fr:"
       }
     },
     {
       "id": "POL",
       "name": "Poland",
+      "rank": 8,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDF5\uD83C\uDDF1",
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
+        "slackcode": ":flag-pl:"
       }
     },
     {
       "id": "SUI",
       "name": "Switzerland",
+      "rank": 9,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDE8\uD83C\uDDED",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
+        "slackcode": ":flag-ch:"
       }
     },
     {
       "id": "CRO",
       "name": "Croatia",
+      "rank": 10,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDED\uD83C\uDDF7",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+        "slackcode": ":flag-hr:"
       }
     },
     {
       "id": "NED",
       "name": "Netherlands",
+      "rank": 11,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDF3\uD83C\uDDF1",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+        "slackcode": ":flag-nl:"
       }
     },
     {
       "id": "RUS",
       "name": "Russia",
+      "rank": 12,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDF7\uD83C\uDDFA",
+        "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+        "slackcode": ":flag-ru:"
       }
     },
     {
       "id": "POR",
       "name": "Portugal",
+      "rank": 13,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDF5\uD83C\uDDF9",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+        "slackcode": ":flag-pt:"
       }
     },
     {
       "id": "TUR",
       "name": "Turkey",
+      "rank": 14,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDF9\uD83C\uDDF7",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+        "slackcode": ":flag-tr:"
       }
     },
     {
       "id": "DEN",
       "name": "Denmark",
+      "rank": 15,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDE9\uD83C\uDDF0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
+        "slackcode": ":flag-dk:"
       }
     },
     {
       "id": "AUT",
       "name": "Austria",
+      "rank": 16,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDE6\uD83C\uDDF9",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
+        "slackcode": ":flag-at:"
       }
     },
     {
       "id": "SWE",
       "name": "Sweden",
+      "rank": 17,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDF8\uD83C\uDDEA",
+        "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
+        "slackcode": ":flag-se:"
       }
     },
     {
       "id": "CZE",
       "name": "Czech Republic",
+      "rank": 18,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDE8\uD83C\uDDFF",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+        "slackcode": ":flag-cz:"
       }
     },
     {
       "id": "WAL",
       "name": "Wales",
+      "rank": 19,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg",
+        "slackcode": ":flag-wales:"
       }
     },
     {
       "id": "FIN",
       "name": "Finland",
+      "rank": 20,
       "flag": {
-        "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "unicode": "\uD83C\uDDEB\uD83C\uDDEE",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
+        "slackcode": ":flag-fi:"
       }
     },
     {
       "id": "TBD1",
-      "name": "To be decided",
+      "name": "To be decided 1",
+      "rank": 0,
       "flag": {
         "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "url": "",
+        "slackcode": ""
       }
     },
     {
       "id": "TBD2",
-      "name": "To be decided",
+      "name": "To be decided 2",
+      "rank": 0,
       "flag": {
         "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "url": "",
+        "slackcode": ""
       }
     },
     {
       "id": "TBD3",
-      "name": "To be decided",
+      "name": "To be decided 3",
+      "rank": 0,
       "flag": {
         "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "url": "",
+        "slackcode": ""
       }
     },
     {
       "id": "TBD4",
-      "name": "To be decided",
+      "name": "To be decided 4",
+      "rank": 0,
       "flag": {
         "unicode": "",
-        "url": ""
-      },
-      "emoji": {
-        "code": "",
-        "string": ""
+        "url": "",
+        "slackcode": ""
       }
     }
   ],
@@ -454,7 +407,7 @@
       "matches": [
         {
           "id": 1,
-          "name": 1,
+          "name": "1",
           "matchtype": "group",
           "home_team": "TUR",
           "away_team": "ITA",
@@ -462,14 +415,13 @@
           "away_result": null,
           "date": "2020-06-12T21:00:00+02:00",
           "stadium": 3,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "1"
         },
         {
           "id": 2,
-          "name": 2,
+          "name": "2",
           "matchtype": "group",
           "home_team": "WAL",
           "away_team": "SUI",
@@ -477,14 +429,13 @@
           "away_result": null,
           "date": "2020-06-13T15:00:00+02:00",
           "stadium": 4,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "1"
         },
         {
           "id": 13,
-          "name": 13,
+          "name": "13",
           "matchtype": "group",
           "home_team": "TUR",
           "away_team": "WAL",
@@ -492,14 +443,13 @@
           "away_result": null,
           "date": "2020-06-17T18:00:00+02:00",
           "stadium": 4,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "2"
         },
         {
           "id": 14,
-          "name": 14,
+          "name": "14",
           "matchtype": "group",
           "home_team": "ITA",
           "away_team": "SUI",
@@ -507,14 +457,13 @@
           "away_result": null,
           "date": "2020-06-17T21:00:00+02:00",
           "stadium": 3,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "2"
         },
         {
           "id": 25,
-          "name": 25,
+          "name": "25",
           "matchtype": "group",
           "home_team": "SUI",
           "away_team": "TUR",
@@ -522,14 +471,13 @@
           "away_result": null,
           "date": "2020-06-21T18:00:00+02:00",
           "stadium": 4,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "3"
         },
         {
           "id": 26,
-          "name": 26,
+          "name": "26",
           "matchtype": "group",
           "home_team": "ITA",
           "away_team": "WAL",
@@ -537,10 +485,9 @@
           "away_result": null,
           "date": "2020-06-21T18:00:00+02:00",
           "stadium": 3,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "3"
         }
       ]
     },
@@ -553,7 +500,7 @@
       "matches": [
         {
           "id": 3,
-          "name": 3,
+          "name": "3",
           "matchtype": "group",
           "home_team": "DEN",
           "away_team": "FIN",
@@ -561,14 +508,13 @@
           "away_result": null,
           "date": "2020-06-13T18:00:00+02:00",
           "stadium": 7,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "1"
         },
         {
           "id": 4,
-          "name": 4,
+          "name": "4",
           "matchtype": "group",
           "home_team": "BEL",
           "away_team": "RUS",
@@ -576,14 +522,13 @@
           "away_result": null,
           "date": "2020-06-13T21:00:00+02:00",
           "stadium": 12,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "1"
         },
         {
           "id": 15,
-          "name": 15,
+          "name": "15",
           "matchtype": "group",
           "home_team": "FIN",
           "away_team": "RUS",
@@ -591,29 +536,27 @@
           "away_result": null,
           "date": "2020-06-17T15:00:00+02:00",
           "stadium": 12,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "2"
         },
         {
           "id": 16,
-          "name": 16,
+          "name": "16",
           "matchtype": "group",
           "home_team": "DEN",
           "away_team": "BEL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-18T21:00:00+02:00",
+          "date": "2020-06-18T18:00:00+02:00",
           "stadium": 7,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "2"
         },
         {
           "id": 27,
-          "name": 27,
+          "name": "27",
           "matchtype": "group",
           "home_team": "RUS",
           "away_team": "DEN",
@@ -621,14 +564,13 @@
           "away_result": null,
           "date": "2020-06-22T21:00:00+02:00",
           "stadium": 7,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "3"
         },
         {
           "id": 28,
-          "name": 28,
+          "name": "28",
           "matchtype": "group",
           "home_team": "FIN",
           "away_team": "BEL",
@@ -636,10 +578,381 @@
           "away_result": null,
           "date": "2020-06-22T21:00:00+02:00",
           "stadium": 12,
-          "tvchannels": [
-          ],
+          "tvchannels": [],
           "finished": false,
-          "matchday": 1
+          "matchday": "3"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "name": "Group C",
+      "winner": null,
+      "runnerup": null,
+      "thirdplace": null,
+      "matches": [
+        {
+          "id": 6,
+          "name": "6",
+          "matchtype": "group",
+          "home_team": "AUT",
+          "away_team": "TBD4",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-14T18:00:00+02:00",
+          "stadium": 11,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 5,
+          "name": "5",
+          "matchtype": "group",
+          "home_team": "NED",
+          "away_team": "UKR",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-14T21:00:00+02:00",
+          "stadium": 6,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 18,
+          "name": "18",
+          "matchtype": "group",
+          "home_team": "UKR",
+          "away_team": "TBD4",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-18T15:00:00+02:00",
+          "stadium": 11,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 17,
+          "name": "17",
+          "matchtype": "group",
+          "home_team": "NED",
+          "away_team": "AUT",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-18T21:00:00+02:00",
+          "stadium": 6,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 29,
+          "name": "29",
+          "matchtype": "group",
+          "home_team": "TBD4",
+          "away_team": "NED",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-22T18:00:00+02:00",
+          "stadium": 6,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        },
+        {
+          "id": 30,
+          "name": "30",
+          "matchtype": "group",
+          "home_team": "UKR",
+          "away_team": "AUT",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-22T18:00:00+02:00",
+          "stadium": 11,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "name": "Group D",
+      "winner": null,
+      "runnerup": null,
+      "thirdplace": null,
+      "matches": [
+        {
+          "id": 7,
+          "name": "7",
+          "matchtype": "group",
+          "home_team": "ENG",
+          "away_team": "CRO",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-14T15:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 8,
+          "name": "8",
+          "matchtype": "group",
+          "home_team": "TBD3",
+          "away_team": "CZE",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-15T15:00:00+02:00",
+          "stadium": 9,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 19,
+          "name": "19",
+          "matchtype": "group",
+          "home_team": "CRO",
+          "away_team": "CZE",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-19T18:00:00+02:00",
+          "stadium": 9,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 20,
+          "name": "20",
+          "matchtype": "group",
+          "home_team": "ENG",
+          "away_team": "TBD3",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-19T21:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 31,
+          "name": "31",
+          "matchtype": "group",
+          "home_team": "CRO",
+          "away_team": "TBD3",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-23T21:00:00+02:00",
+          "stadium": 9,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        },
+        {
+          "id": 32,
+          "name": "32",
+          "matchtype": "group",
+          "home_team": "CZE",
+          "away_team": "ENG",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-23T21:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "name": "Group E",
+      "winner": null,
+      "runnerup": null,
+      "thirdplace": null,
+      "matches": [
+        {
+          "id": 10,
+          "name": "10",
+          "matchtype": "group",
+          "home_team": "POL",
+          "away_team": "TBD2",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-15T18:00:00+02:00",
+          "stadium": 8,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 9,
+          "name": "9",
+          "matchtype": "group",
+          "home_team": "ESP",
+          "away_team": "SWE",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-15T21:00:00+02:00",
+          "stadium": 10,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 21,
+          "name": "21",
+          "matchtype": "group",
+          "home_team": "SWE",
+          "away_team": "TBD2",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-19T15:00:00+02:00",
+          "stadium": 8,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 22,
+          "name": "22",
+          "matchtype": "group",
+          "home_team": "ESP",
+          "away_team": "POL",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-20T21:00:00+02:00",
+          "stadium": 10,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 33,
+          "name": "33",
+          "matchtype": "group",
+          "home_team": "TBD2",
+          "away_team": "ESP",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-24T18:00:00+02:00",
+          "stadium": 10,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        },
+        {
+          "id": 34,
+          "name": "34",
+          "matchtype": "group",
+          "home_team": "SWE",
+          "away_team": "POL",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-24T18:00:00+02:00",
+          "stadium": 8,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "name": "Group F",
+      "winner": null,
+      "runnerup": null,
+      "thirdplace": null,
+      "matches": [
+        {
+          "id": 11,
+          "name": "11",
+          "matchtype": "group",
+          "home_team": "TBD1",
+          "away_team": "POR",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-16T18:00:00+02:00",
+          "stadium": 5,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 12,
+          "name": "12",
+          "matchtype": "group",
+          "home_team": "FRA",
+          "away_team": "GER",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-16T21:00:00+02:00",
+          "stadium": 2,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "1"
+        },
+        {
+          "id": 23,
+          "name": "23",
+          "matchtype": "group",
+          "home_team": "TBD1",
+          "away_team": "FRA",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-20T15:00:00+02:00",
+          "stadium": 5,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 24,
+          "name": "24",
+          "matchtype": "group",
+          "home_team": "POR",
+          "away_team": "GER",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-20T18:00:00+02:00",
+          "stadium": 2,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "2"
+        },
+        {
+          "id": 35,
+          "name": "35",
+          "matchtype": "group",
+          "home_team": "POR",
+          "away_team": "FRA",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-24T21:00:00+02:00",
+          "stadium": 5,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
+        },
+        {
+          "id": 36,
+          "name": "36",
+          "matchtype": "group",
+          "home_team": "GER",
+          "away_team": "TBD1",
+          "home_result": null,
+          "away_result": null,
+          "date": "2020-06-24T21:00:00+02:00",
+          "stadium": 2,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "3"
         }
       ]
     }
@@ -650,16 +963,45 @@
       "name": "Round of 16",
       "matches": [
         {
-          "name": 49,
-          "type": "knockout",
+          "id": 37,
+          "name": "37",
+          "matchtype": "knockout",
           "teams_found": false,
           "qualification": {
             "home_team": {
-              "type": "winner",
+              "qualificationtype": "winner",
               "group": "a"
             },
             "away_team": {
-              "type": "runnerup",
+              "qualificationtype": "runnerup",
+              "group": "c"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-27T21:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 38,
+          "name": "38",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "runnerup",
+              "group": "a"
+            },
+            "away_team": {
+              "qualificationtype": "runnerup",
               "group": "b"
             }
           },
@@ -669,35 +1011,200 @@
           "away_result": null,
           "home_penalty": null,
           "away_penalty": null,
-          "winner": 4,
-          "date": "2018-06-30T21:00:00+03:00",
+          "winner": null,
+          "date": "2020-06-27T18:00:00+02:00",
+          "stadium": 6,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 39,
+          "name": "39",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "group": "b"
+            },
+            "away_team": {
+              "qualificationtype": "thirdplace",
+              "group": "A/D/E/F"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-28T21:00:00+02:00",
+          "stadium": 10,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 40,
+          "name": "40",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "group": "c"
+            },
+            "away_team": {
+              "qualificationtype": "thirdplace",
+              "group": "D/E/F"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-28T18:00:00+02:00",
+          "stadium": 5,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 41,
+          "name": "41",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "group": "f"
+            },
+            "away_team": {
+              "qualificationtype": "thirdplace",
+              "group": "A/B/C"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-29T21:00:00+02:00",
           "stadium": 11,
-          "channels": [
-            4,
-            13,
-            15
-          ],
-          "finished": true,
-          "matchday": 4
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 42,
+          "name": "42",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "runnerup",
+              "group": "d"
+            },
+            "away_team": {
+              "qualificationtype": "runnerup",
+              "group": "e"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-29T18:00:00+02:00",
+          "stadium": 7,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 43,
+          "name": "43",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "group": "e"
+            },
+            "away_team": {
+              "qualificationtype": "thirdplace",
+              "group": "A/B/C/D"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-30T21:00:00+02:00",
+          "stadium": 9,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
+        },
+        {
+          "id": 44,
+          "name": "44",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "group": "d"
+            },
+            "away_team": {
+              "qualificationtype": "runnerup",
+              "group": "f"
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-06-30T18:00:00+02:00",
+          "stadium": 8,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "4"
         }
       ]
     },
     "round8": {
       "id": "round8",
-      "name": "Round of 8",
+      "name": "Quarter-finals (Round of 8)",
       "matches": [
         {
-          "name": 50,
-          "type": "knockout",
+          "id": 45,
+          "name": "45",
+          "matchtype": "knockout",
           "teams_found": false,
           "qualification": {
             "home_team": {
-              "type": "winner",
-              "match": 49
+              "qualificationtype": "winner",
+              "match": 41
             },
             "away_team": {
-              "type": "winner",
-              "match": 50
+              "qualificationtype": "winner",
+              "match": 42
             }
           },
           "home_team": null,
@@ -706,34 +1213,177 @@
           "away_result": null,
           "home_penalty": null,
           "away_penalty": null,
-          "winner": 4,
-          "date": "2018-06-30T21:00:00+03:00",
-          "stadium": 11,
-          "channels": [
-            4,
-            13,
-            15
-          ],
-          "finished": true,
-          "matchday": 4
+          "winner": null,
+          "date": "2020-07-03T18:00:00+02:00",
+          "stadium": 12,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "5"
+        },
+        {
+          "id": 46,
+          "name": "46",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "match": 39
+            },
+            "away_team": {
+              "qualificationtype": "winner",
+              "match": 37
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-07-03T21:00:00+02:00",
+          "stadium": 2,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "5"
+        },
+        {
+          "id": 47,
+          "name": "47",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "match": 40
+            },
+            "away_team": {
+              "qualificationtype": "winner",
+              "match": 38
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-07-04T18:00:00+02:00",
+          "stadium": 4,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "5"
+        },
+        {
+          "id": 48,
+          "name": "48",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "match": 43
+            },
+            "away_team": {
+              "qualificationtype": "winner",
+              "match": 44
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-07-04T21:00:00+02:00",
+          "stadium": 3,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "5"
         }
       ]
     },
-    "final": {
-      "id": "final",
-      "name": "Final",
+    "round4": {
+      "id": "round4",
+      "name": "Semi-finals (Round of 4)",
       "matches": [
         {
-          "name": 50,
-          "type": "knockout",
+          "id": 49,
+          "name": "49",
+          "matchtype": "knockout",
           "teams_found": false,
           "qualification": {
             "home_team": {
-              "type": "winner",
+              "qualificationtype": "winner",
+              "match": 46
+            },
+            "away_team": {
+              "qualificationtype": "winner",
+              "match": 45
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-07-07T21:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "6"
+        },
+        {
+          "id": 50,
+          "name": "50",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
+              "match": 48
+            },
+            "away_team": {
+              "qualificationtype": "winner",
+              "match": 47
+            }
+          },
+          "home_team": null,
+          "away_team": null,
+          "home_result": null,
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2020-07-08T21:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "6"
+        }
+      ]
+    },
+    "round2": {
+      "id": "round2",
+      "name": "Final",
+      "matches": [
+        {
+          "id": 51,
+          "name": "51",
+          "matchtype": "knockout",
+          "teams_found": false,
+          "qualification": {
+            "home_team": {
+              "qualificationtype": "winner",
               "match": 49
             },
             "away_team": {
-              "type": "winner",
+              "qualificationtype": "winner",
               "match": 50
             }
           },
@@ -743,16 +1393,12 @@
           "away_result": null,
           "home_penalty": null,
           "away_penalty": null,
-          "winner": 4,
-          "date": "2018-06-30T21:00:00+03:00",
-          "stadium": 11,
-          "channels": [
-            4,
-            13,
-            15
-          ],
-          "finished": true,
-          "matchday": 4
+          "winner": null,
+          "date": "2020-07-12T21:00:00+02:00",
+          "stadium": 1,
+          "tvchannels": [],
+          "finished": false,
+          "matchday": "7"
         }
       ]
     }
