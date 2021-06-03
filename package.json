@@ -1,9 +1,10 @@
 {
   "devDependencies": {
-    "ajv": "^6.10.2",
-    "jsonlint": "^1.6.3"
+    "ajv": "^6.12.6",
+    "jsonlint": "^1.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/jsonlint data.json -q && node --experimental-modules tests/schema.mjs"
+    "lint": "node_modules/.bin/jsonlint ./data.json -q",
+    "test": "node tests/data.js && node tests/examples/group_a_finished.js && node tests/examples/semifinals.js"
   }
 }

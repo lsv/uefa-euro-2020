@@ -1,0 +1,1436 @@
+{
+    "stadiums": [
+        {
+            "id": "WEM",
+            "name": "Wembley Stadium",
+            "city": "London",
+            "country": "England",
+            "coords": {
+                "latitude": 51.5552193,
+                "longitude": -0.2772329
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wembley-Stadion_2013_16x10.jpg"
+        },
+        {
+            "id": "ALL",
+            "name": "Allianz Arena",
+            "city": "Munich",
+            "country": "Germany",
+            "coords": {
+                "latitude": 48.218775,
+                "longitude": 11.624753
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg"
+        },
+        {
+            "id": "STA",
+            "name": "Stadio Olimpico",
+            "city": "Rome",
+            "country": "Italy",
+            "coords": {
+                "latitude": 41.933886,
+                "longitude": 12.454786
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Stadio_Olimpico_2008.JPG"
+        },
+        {
+            "id": "OLY",
+            "name": "Olympic Stadium",
+            "city": "Baku",
+            "country": "Azerbaijan",
+            "coords": {
+                "latitude": 40.4299621,
+                "longitude": 49.9174133
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Baku_Olympic_Stadium_panorama_1.JPG"
+        },
+        {
+            "id": "PUS",
+            "name": "Puskás Aréna",
+            "city": "Budapest",
+            "country": "Hungary",
+            "coords": {
+                "latitude": 47.503094,
+                "longitude": 19.0982
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pusk%C3%A1s_Ar%C3%A9na.jpg"
+        },
+        {
+            "id": "JOH",
+            "name": "Johan Cruyff Arena",
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "coords": {
+                "latitude": 52.314167,
+                "longitude": 4.941944
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Amsterdam_Arena_Roof_Open.jpg"
+        },
+        {
+            "id": "PAR",
+            "name": "Parken Stadium",
+            "city": "Copenhagen",
+            "country": "Denmark",
+            "coords": {
+                "latitude": 55.702469,
+                "longitude": 12.572203
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/DONG_Cup_finalen_2004_Parken.jpg"
+        },
+        {
+            "id": "AVI",
+            "name": "Aviva Stadium",
+            "city": "Dublin",
+            "country": "Ireland",
+            "coords": {
+                "latitude": 53.335139,
+                "longitude": -6.228333
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Aviva_Stadium%28Dublin_Arena%29.JPG"
+        },
+        {
+            "id": "HAM",
+            "name": "Hampden Park",
+            "city": "Glasgow",
+            "country": "Scotland",
+            "coords": {
+                "latitude": 55.825864,
+                "longitude": -4.252003
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Panoramio_-_V%26A_Dudush_-_Scotland_National_Stadium.jpg"
+        },
+        {
+            "id": "CAR",
+            "name": "Estadio de La Cartuja",
+            "city": "Seville",
+            "country": "Spain",
+            "coords": {
+                "latitude": 37.417290,
+                "longitude": -6.004646
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg"
+        },
+        {
+            "id": "NAT",
+            "name": "Arena Națională",
+            "city": "Bucharest",
+            "country": "Romania",
+            "coords": {
+                "latitude": 44.437208,
+                "longitude": 26.152508
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stadionul_National_-_National_Arena_3.jpg"
+        },
+        {
+            "id": "KRE",
+            "name": "Krestovsky Stadium",
+            "city": "Saint Petersburg",
+            "country": "Russia",
+            "coords": {
+                "latitude": 59.972953,
+                "longitude": 30.220533
+            },
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Spb_06-2017_img42_Krestovsky_Stadium.jpg"
+        }
+    ],
+    "tvchannels": [
+        {
+            "id": 1,
+            "name": "TV3",
+            "icon": "",
+            "country": "Denmark",
+            "iso2": "DK",
+            "lang": [
+                "dk"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "TV3+",
+            "icon": "",
+            "country": "Denmark",
+            "iso2": "DK",
+            "lang": [
+                "dk"
+            ]
+        }
+    ],
+    "teams": [
+        {
+            "id": "BEL",
+            "name": "Belgium",
+            "rank": 1,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDE7\uD83C\uDDEA",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
+                "slackcode": ":flag-be:"
+            }
+        },
+        {
+            "id": "ITA",
+            "name": "Italy",
+            "rank": 2,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDEE\uD83C\uDDF9",
+                "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
+                "slackcode": ":flag-it:"
+            }
+        },
+        {
+            "id": "ENG",
+            "name": "England",
+            "rank": 3,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F",
+                "url": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+                "slackcode": ":flag-england:"
+            }
+        },
+        {
+            "id": "GER",
+            "name": "Germany",
+            "rank": 4,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDE9\uD83C\uDDEA",
+                "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
+                "slackcode": ":flag-de:"
+            }
+        },
+        {
+            "id": "ESP",
+            "name": "Spain",
+            "rank": 5,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDEA\uD83C\uDDF8",
+                "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
+                "slackcode": ":flag-es:"
+            }
+        },
+        {
+            "id": "UKR",
+            "name": "Ukraine",
+            "rank": 6,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDFA\uD83C\uDDE6",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
+                "slackcode": ":flag-ua:"
+            }
+        },
+        {
+            "id": "FRA",
+            "name": "France",
+            "rank": 7,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDEB\uD83C\uDDF7",
+                "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+                "slackcode": ":flag-fr:"
+            }
+        },
+        {
+            "id": "POL",
+            "name": "Poland",
+            "rank": 8,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF5\uD83C\uDDF1",
+                "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
+                "slackcode": ":flag-pl:"
+            }
+        },
+        {
+            "id": "SUI",
+            "name": "Switzerland",
+            "rank": 9,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDE8\uD83C\uDDED",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
+                "slackcode": ":flag-ch:"
+            }
+        },
+        {
+            "id": "CRO",
+            "name": "Croatia",
+            "rank": 10,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDED\uD83C\uDDF7",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+                "slackcode": ":flag-hr:"
+            }
+        },
+        {
+            "id": "NED",
+            "name": "Netherlands",
+            "rank": 11,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF3\uD83C\uDDF1",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+                "slackcode": ":flag-nl:"
+            }
+        },
+        {
+            "id": "RUS",
+            "name": "Russia",
+            "rank": 12,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF7\uD83C\uDDFA",
+                "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+                "slackcode": ":flag-ru:"
+            }
+        },
+        {
+            "id": "POR",
+            "name": "Portugal",
+            "rank": 13,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF5\uD83C\uDDF9",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+                "slackcode": ":flag-pt:"
+            }
+        },
+        {
+            "id": "TUR",
+            "name": "Turkey",
+            "rank": 14,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF9\uD83C\uDDF7",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+                "slackcode": ":flag-tr:"
+            }
+        },
+        {
+            "id": "DEN",
+            "name": "Denmark",
+            "rank": 15,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDE9\uD83C\uDDF0",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
+                "slackcode": ":flag-dk:"
+            }
+        },
+        {
+            "id": "AUT",
+            "name": "Austria",
+            "rank": 16,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDE6\uD83C\uDDF9",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
+                "slackcode": ":flag-at:"
+            }
+        },
+        {
+            "id": "SWE",
+            "name": "Sweden",
+            "rank": 17,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF8\uD83C\uDDEA",
+                "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
+                "slackcode": ":flag-se:"
+            }
+        },
+        {
+            "id": "CZE",
+            "name": "Czech Republic",
+            "rank": 18,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDE8\uD83C\uDDFF",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+                "slackcode": ":flag-cz:"
+            }
+        },
+        {
+            "id": "WAL",
+            "name": "Wales",
+            "rank": 19,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg",
+                "slackcode": ":flag-wales:"
+            }
+        },
+        {
+            "id": "FIN",
+            "name": "Finland",
+            "rank": 20,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDEB\uD83C\uDDEE",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
+                "slackcode": ":flag-fi:"
+            }
+        },
+        {
+            "id": "MAC",
+            "name": "North Macedonia",
+            "rank": 30,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF2\uD83C\uDDF0",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
+                "slackcode": ":flag-mk:"
+            }
+        },
+        {
+            "id": "SLO",
+            "name": "Slovakia",
+            "rank": 22,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDF8\uD83C\uDDF0",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg",
+                "slackcode": ":flag-sk:"
+            }
+        },
+        {
+            "id": "SCO",
+            "name": "Scotland",
+            "rank": 29,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
+                "slackcode": ":flag-scotland:"
+            }
+        },
+        {
+            "id": "HUN",
+            "name": "Hungary",
+            "rank": 31,
+            "disciplinary": 0,
+            "flag": {
+                "unicode": "\uD83C\uDDED\uD83C\uDDFA",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg",
+                "slackcode": ":flag-hu:"
+            }
+        }
+    ],
+    "groups": [
+        {
+            "id": "a",
+            "name": "Group A",
+            "winner": null,
+            "runnerup": null,
+            "thirdplace": null,
+            "fourthplace": null,
+            "matches": [
+                {
+                    "id": 1,
+                    "name": "1",
+                    "matchtype": "group",
+                    "home_team": "TUR",
+                    "away_team": "ITA",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-11T21:00:00+02:00",
+                    "stadium": "STA",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "matchtype": "group",
+                    "home_team": "WAL",
+                    "away_team": "SUI",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-12T15:00:00+02:00",
+                    "stadium": "OLY",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 13,
+                    "name": "13",
+                    "matchtype": "group",
+                    "home_team": "TUR",
+                    "away_team": "WAL",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-16T18:00:00+02:00",
+                    "stadium": "OLY",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 14,
+                    "name": "14",
+                    "matchtype": "group",
+                    "home_team": "ITA",
+                    "away_team": "SUI",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-16T21:00:00+02:00",
+                    "stadium": "STA",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 25,
+                    "name": "25",
+                    "matchtype": "group",
+                    "home_team": "SUI",
+                    "away_team": "TUR",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-20T18:00:00+02:00",
+                    "stadium": "OLY",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                },
+                {
+                    "id": 26,
+                    "name": "26",
+                    "matchtype": "group",
+                    "home_team": "ITA",
+                    "away_team": "WAL",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-20T18:00:00+02:00",
+                    "stadium": "STA",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                }
+            ]
+        },
+        {
+            "id": "b",
+            "name": "Group B",
+            "winner": null,
+            "runnerup": null,
+            "thirdplace": null,
+            "fourthplace": null,
+            "matches": [
+                {
+                    "id": 3,
+                    "name": "3",
+                    "matchtype": "group",
+                    "home_team": "DEN",
+                    "away_team": "FIN",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-12T18:00:00+02:00",
+                    "stadium": "PAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 4,
+                    "name": "4",
+                    "matchtype": "group",
+                    "home_team": "BEL",
+                    "away_team": "RUS",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-12T21:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 15,
+                    "name": "15",
+                    "matchtype": "group",
+                    "home_team": "FIN",
+                    "away_team": "RUS",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-16T15:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 16,
+                    "name": "16",
+                    "matchtype": "group",
+                    "home_team": "DEN",
+                    "away_team": "BEL",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-17T18:00:00+02:00",
+                    "stadium": "PAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 27,
+                    "name": "27",
+                    "matchtype": "group",
+                    "home_team": "RUS",
+                    "away_team": "DEN",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-21T21:00:00+02:00",
+                    "stadium": "PAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                },
+                {
+                    "id": 28,
+                    "name": "28",
+                    "matchtype": "group",
+                    "home_team": "FIN",
+                    "away_team": "BEL",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-21T21:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                }
+            ]
+        },
+        {
+            "id": "c",
+            "name": "Group C",
+            "winner": null,
+            "runnerup": null,
+            "thirdplace": null,
+            "fourthplace": null,
+            "matches": [
+                {
+                    "id": 6,
+                    "name": "6",
+                    "matchtype": "group",
+                    "home_team": "AUT",
+                    "away_team": "MAC",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-13T18:00:00+02:00",
+                    "stadium": "NAT",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 5,
+                    "name": "5",
+                    "matchtype": "group",
+                    "home_team": "NED",
+                    "away_team": "UKR",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-13T21:00:00+02:00",
+                    "stadium": "JOH",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 18,
+                    "name": "18",
+                    "matchtype": "group",
+                    "home_team": "UKR",
+                    "away_team": "MAC",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-17T15:00:00+02:00",
+                    "stadium": "NAT",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 17,
+                    "name": "17",
+                    "matchtype": "group",
+                    "home_team": "NED",
+                    "away_team": "AUT",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-17T21:00:00+02:00",
+                    "stadium": "JOH",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 29,
+                    "name": "29",
+                    "matchtype": "group",
+                    "home_team": "MAC",
+                    "away_team": "NED",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-21T18:00:00+02:00",
+                    "stadium": "JOH",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                },
+                {
+                    "id": 30,
+                    "name": "30",
+                    "matchtype": "group",
+                    "home_team": "UKR",
+                    "away_team": "AUT",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-21T18:00:00+02:00",
+                    "stadium": "NAT",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                }
+            ]
+        },
+        {
+            "id": "d",
+            "name": "Group D",
+            "winner": null,
+            "runnerup": null,
+            "thirdplace": null,
+            "fourthplace": null,
+            "matches": [
+                {
+                    "id": 7,
+                    "name": "7",
+                    "matchtype": "group",
+                    "home_team": "ENG",
+                    "away_team": "CRO",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-13T15:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 8,
+                    "name": "8",
+                    "matchtype": "group",
+                    "home_team": "SCO",
+                    "away_team": "CZE",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-14T15:00:00+02:00",
+                    "stadium": "HAM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 19,
+                    "name": "19",
+                    "matchtype": "group",
+                    "home_team": "CRO",
+                    "away_team": "CZE",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-18T18:00:00+02:00",
+                    "stadium": "HAM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 20,
+                    "name": "20",
+                    "matchtype": "group",
+                    "home_team": "ENG",
+                    "away_team": "SCO",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-18T21:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 31,
+                    "name": "31",
+                    "matchtype": "group",
+                    "home_team": "CRO",
+                    "away_team": "SCO",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-22T21:00:00+02:00",
+                    "stadium": "HAM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                },
+                {
+                    "id": 32,
+                    "name": "32",
+                    "matchtype": "group",
+                    "home_team": "CZE",
+                    "away_team": "ENG",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-22T21:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                }
+            ]
+        },
+        {
+            "id": "e",
+            "name": "Group E",
+            "winner": null,
+            "runnerup": null,
+            "thirdplace": null,
+            "fourthplace": null,
+            "matches": [
+                {
+                    "id": 10,
+                    "name": "10",
+                    "matchtype": "group",
+                    "home_team": "POL",
+                    "away_team": "SLO",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-14T18:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 9,
+                    "name": "9",
+                    "matchtype": "group",
+                    "home_team": "ESP",
+                    "away_team": "SWE",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-14T21:00:00+02:00",
+                    "stadium": "CAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 21,
+                    "name": "21",
+                    "matchtype": "group",
+                    "home_team": "SWE",
+                    "away_team": "SLO",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-18T15:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 22,
+                    "name": "22",
+                    "matchtype": "group",
+                    "home_team": "ESP",
+                    "away_team": "POL",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-19T21:00:00+02:00",
+                    "stadium": "CAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 33,
+                    "name": "33",
+                    "matchtype": "group",
+                    "home_team": "SLO",
+                    "away_team": "ESP",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-23T18:00:00+02:00",
+                    "stadium": "CAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                },
+                {
+                    "id": 34,
+                    "name": "34",
+                    "matchtype": "group",
+                    "home_team": "SWE",
+                    "away_team": "POL",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-23T18:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                }
+            ]
+        },
+        {
+            "id": "f",
+            "name": "Group F",
+            "winner": null,
+            "runnerup": null,
+            "thirdplace": null,
+            "fourthplace": null,
+            "matches": [
+                {
+                    "id": 11,
+                    "name": "11",
+                    "matchtype": "group",
+                    "home_team": "HUN",
+                    "away_team": "POR",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-15T18:00:00+02:00",
+                    "stadium": "PUS",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 12,
+                    "name": "12",
+                    "matchtype": "group",
+                    "home_team": "FRA",
+                    "away_team": "GER",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-15T21:00:00+02:00",
+                    "stadium": "ALL",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "1"
+                },
+                {
+                    "id": 23,
+                    "name": "23",
+                    "matchtype": "group",
+                    "home_team": "HUN",
+                    "away_team": "FRA",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-19T15:00:00+02:00",
+                    "stadium": "PUS",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 24,
+                    "name": "24",
+                    "matchtype": "group",
+                    "home_team": "POR",
+                    "away_team": "GER",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-19T18:00:00+02:00",
+                    "stadium": "ALL",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "2"
+                },
+                {
+                    "id": 35,
+                    "name": "35",
+                    "matchtype": "group",
+                    "home_team": "POR",
+                    "away_team": "FRA",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-23T21:00:00+02:00",
+                    "stadium": "PUS",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                },
+                {
+                    "id": 36,
+                    "name": "36",
+                    "matchtype": "group",
+                    "home_team": "GER",
+                    "away_team": "HUN",
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2021-06-23T21:00:00+02:00",
+                    "stadium": "ALL",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "3"
+                }
+            ]
+        }
+    ],
+    "knockoutphases": {
+        "round16": {
+            "id": "round16",
+            "name": "Round of 16",
+            "matches": [
+                {
+                    "id": 37,
+                    "name": "37",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "group": "a"
+                        },
+                        "away_team": {
+                            "qualificationtype": "runnerup",
+                            "group": "c"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-26T21:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 38,
+                    "name": "38",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "runnerup",
+                            "group": "a"
+                        },
+                        "away_team": {
+                            "qualificationtype": "runnerup",
+                            "group": "b"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-26T18:00:00+02:00",
+                    "stadium": "JOH",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 39,
+                    "name": "39",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "group": "b"
+                        },
+                        "away_team": {
+                            "qualificationtype": "thirdplace",
+                            "group": "A/D/E/F"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-27T21:00:00+02:00",
+                    "stadium": "CAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 40,
+                    "name": "40",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "group": "c"
+                        },
+                        "away_team": {
+                            "qualificationtype": "thirdplace",
+                            "group": "D/E/F"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-27T18:00:00+02:00",
+                    "stadium": "PUS",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 41,
+                    "name": "41",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "group": "f"
+                        },
+                        "away_team": {
+                            "qualificationtype": "thirdplace",
+                            "group": "A/B/C"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-28T21:00:00+02:00",
+                    "stadium": "NAT",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 42,
+                    "name": "42",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "runnerup",
+                            "group": "d"
+                        },
+                        "away_team": {
+                            "qualificationtype": "runnerup",
+                            "group": "e"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-28T18:00:00+02:00",
+                    "stadium": "PAR",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 43,
+                    "name": "43",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "group": "e"
+                        },
+                        "away_team": {
+                            "qualificationtype": "thirdplace",
+                            "group": "A/B/C/D"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-29T21:00:00+02:00",
+                    "stadium": "HAM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                },
+                {
+                    "id": 44,
+                    "name": "44",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "group": "d"
+                        },
+                        "away_team": {
+                            "qualificationtype": "runnerup",
+                            "group": "f"
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-06-29T18:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "4"
+                }
+            ]
+        },
+        "round8": {
+            "id": "round8",
+            "name": "Quarter-finals (Round of 8)",
+            "matches": [
+                {
+                    "id": 45,
+                    "name": "45",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 41
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 42
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-07-02T18:00:00+02:00",
+                    "stadium": "KRE",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "5"
+                },
+                {
+                    "id": 46,
+                    "name": "46",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 39
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 37
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-07-02T21:00:00+02:00",
+                    "stadium": "ALL",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "5"
+                },
+                {
+                    "id": 47,
+                    "name": "47",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 40
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 38
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-07-03T18:00:00+02:00",
+                    "stadium": "OLY",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "5"
+                },
+                {
+                    "id": 48,
+                    "name": "48",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 43
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 44
+                        }
+                    },
+                    "home_team": null,
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-07-03T21:00:00+02:00",
+                    "stadium": "STA",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "5"
+                }
+            ]
+        },
+        "round4": {
+            "id": "round4",
+            "name": "Semi-finals (Round of 4)",
+            "matches": [
+                {
+                    "id": 49,
+                    "name": "49",
+                    "matchtype": "knockout",
+                    "teams_found": true,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 46
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 45
+                        }
+                    },
+                    "home_team": "HUN",
+                    "away_team": "DEN",
+                    "home_result": 1,
+                    "away_result": 1,
+                    "home_penalty": 4,
+                    "away_penalty": 5,
+                    "winner": "DEN",
+                    "date": "2021-07-06T21:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": true,
+                    "matchday": "6"
+                },
+                {
+                    "id": 50,
+                    "name": "50",
+                    "matchtype": "knockout",
+                    "teams_found": true,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 48
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 47
+                        }
+                    },
+                    "home_team": "POR",
+                    "away_team": "FRA",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-07-07T21:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "6"
+                }
+            ]
+        },
+        "round2": {
+            "id": "round2",
+            "name": "Final",
+            "matches": [
+                {
+                    "id": 51,
+                    "name": "51",
+                    "matchtype": "knockout",
+                    "teams_found": false,
+                    "qualification": {
+                        "home_team": {
+                            "qualificationtype": "winner",
+                            "match": 49
+                        },
+                        "away_team": {
+                            "qualificationtype": "winner",
+                            "match": 50
+                        }
+                    },
+                    "home_team": "DEN",
+                    "away_team": null,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2021-07-11T21:00:00+02:00",
+                    "stadium": "WEM",
+                    "tvchannels": [],
+                    "finished": false,
+                    "matchday": "7"
+                }
+            ]
+        }
+    }
+}

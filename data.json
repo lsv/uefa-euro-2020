@@ -1,7 +1,7 @@
 {
   "stadiums": [
     {
-      "id": 1,
+      "id": "WEM",
       "name": "Wembley Stadium",
       "city": "London",
       "country": "England",
@@ -12,7 +12,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wembley-Stadion_2013_16x10.jpg"
     },
     {
-      "id": 2,
+      "id": "ALL",
       "name": "Allianz Arena",
       "city": "Munich",
       "country": "Germany",
@@ -23,7 +23,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg"
     },
     {
-      "id": 3,
+      "id": "STA",
       "name": "Stadio Olimpico",
       "city": "Rome",
       "country": "Italy",
@@ -34,7 +34,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Stadio_Olimpico_2008.JPG"
     },
     {
-      "id": 4,
+      "id": "OLY",
       "name": "Olympic Stadium",
       "city": "Baku",
       "country": "Azerbaijan",
@@ -45,7 +45,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Baku_Olympic_Stadium_panorama_1.JPG"
     },
     {
-      "id": 5,
+      "id": "PUS",
       "name": "Puskás Aréna",
       "city": "Budapest",
       "country": "Hungary",
@@ -56,7 +56,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Pusk%C3%A1s_Ar%C3%A9na.jpg"
     },
     {
-      "id": 6,
+      "id": "JOH",
       "name": "Johan Cruyff Arena",
       "city": "Amsterdam",
       "country": "Netherlands",
@@ -67,7 +67,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Amsterdam_Arena_Roof_Open.jpg"
     },
     {
-      "id": 7,
+      "id": "PAR",
       "name": "Parken Stadium",
       "city": "Copenhagen",
       "country": "Denmark",
@@ -78,7 +78,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/DONG_Cup_finalen_2004_Parken.jpg"
     },
     {
-      "id": 8,
+      "id": "AVI",
       "name": "Aviva Stadium",
       "city": "Dublin",
       "country": "Ireland",
@@ -89,7 +89,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Aviva_Stadium%28Dublin_Arena%29.JPG"
     },
     {
-      "id": 9,
+      "id": "HAM",
       "name": "Hampden Park",
       "city": "Glasgow",
       "country": "Scotland",
@@ -100,18 +100,18 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Panoramio_-_V%26A_Dudush_-_Scotland_National_Stadium.jpg"
     },
     {
-      "id": 10,
-      "name": "San Mamés",
-      "city": "Bilbao",
+      "id": "CAR",
+      "name": "Estadio de La Cartuja",
+      "city": "Seville",
       "country": "Spain",
       "coords": {
-        "latitude": 43.264284,
-        "longitude": -2.950366
+        "latitude": 37.417290,
+        "longitude": -6.004646
       },
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/San_Mames%2C_Bilbao%2C_Euskal_Herria_-_Basque_Country.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Panoramio_-_V%26A_Dudush_-_Estadio_Ol%C3%ADmpico_57_619.jpg"
     },
     {
-      "id": 11,
+      "id": "NAT",
       "name": "Arena Națională",
       "city": "Bucharest",
       "country": "Romania",
@@ -122,7 +122,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stadionul_National_-_National_Arena_3.jpg"
     },
     {
-      "id": 12,
+      "id": "KRE",
       "name": "Krestovsky Stadium",
       "city": "Saint Petersburg",
       "country": "Russia",
@@ -160,6 +160,7 @@
       "id": "BEL",
       "name": "Belgium",
       "rank": 1,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDE7\uD83C\uDDEA",
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
@@ -170,6 +171,7 @@
       "id": "ITA",
       "name": "Italy",
       "rank": 2,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDEE\uD83C\uDDF9",
         "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
@@ -180,6 +182,7 @@
       "id": "ENG",
       "name": "England",
       "rank": 3,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F",
         "url": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
@@ -190,6 +193,7 @@
       "id": "GER",
       "name": "Germany",
       "rank": 4,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDE9\uD83C\uDDEA",
         "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
@@ -200,6 +204,7 @@
       "id": "ESP",
       "name": "Spain",
       "rank": 5,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDEA\uD83C\uDDF8",
         "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
@@ -210,6 +215,7 @@
       "id": "UKR",
       "name": "Ukraine",
       "rank": 6,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDFA\uD83C\uDDE6",
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg",
@@ -220,6 +226,7 @@
       "id": "FRA",
       "name": "France",
       "rank": 7,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDEB\uD83C\uDDF7",
         "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
@@ -230,6 +237,7 @@
       "id": "POL",
       "name": "Poland",
       "rank": 8,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDF5\uD83C\uDDF1",
         "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
@@ -240,6 +248,7 @@
       "id": "SUI",
       "name": "Switzerland",
       "rank": 9,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDE8\uD83C\uDDED",
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg",
@@ -250,6 +259,7 @@
       "id": "CRO",
       "name": "Croatia",
       "rank": 10,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDED\uD83C\uDDF7",
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
@@ -260,6 +270,7 @@
       "id": "NED",
       "name": "Netherlands",
       "rank": 11,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDF3\uD83C\uDDF1",
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
@@ -270,6 +281,7 @@
       "id": "RUS",
       "name": "Russia",
       "rank": 12,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDF7\uD83C\uDDFA",
         "url": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
@@ -280,6 +292,7 @@
       "id": "POR",
       "name": "Portugal",
       "rank": 13,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDF5\uD83C\uDDF9",
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
@@ -290,6 +303,7 @@
       "id": "TUR",
       "name": "Turkey",
       "rank": 14,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDF9\uD83C\uDDF7",
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
@@ -300,6 +314,7 @@
       "id": "DEN",
       "name": "Denmark",
       "rank": 15,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDE9\uD83C\uDDF0",
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
@@ -310,6 +325,7 @@
       "id": "AUT",
       "name": "Austria",
       "rank": 16,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDE6\uD83C\uDDF9",
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg",
@@ -320,6 +336,7 @@
       "id": "SWE",
       "name": "Sweden",
       "rank": 17,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDF8\uD83C\uDDEA",
         "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
@@ -330,6 +347,7 @@
       "id": "CZE",
       "name": "Czech Republic",
       "rank": 18,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDE8\uD83C\uDDFF",
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
@@ -340,6 +358,7 @@
       "id": "WAL",
       "name": "Wales",
       "rank": 19,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F",
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg",
@@ -350,6 +369,7 @@
       "id": "FIN",
       "name": "Finland",
       "rank": 20,
+      "disciplinary": 0,
       "flag": {
         "unicode": "\uD83C\uDDEB\uD83C\uDDEE",
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
@@ -357,9 +377,10 @@
       }
     },
     {
-      "id": "TBD1",
-      "name": "To be decided 1",
-      "rank": 0,
+      "id": "MAC",
+      "name": "North Macedonia",
+      "rank": 30,
+      "disciplinary": 0,
       "flag": {
         "unicode": "",
         "url": "",
@@ -367,9 +388,10 @@
       }
     },
     {
-      "id": "TBD2",
-      "name": "To be decided 2",
-      "rank": 0,
+      "id": "SLO",
+      "name": "Slovakia",
+      "rank": 22,
+      "disciplinary": 0,
       "flag": {
         "unicode": "",
         "url": "",
@@ -377,9 +399,10 @@
       }
     },
     {
-      "id": "TBD3",
-      "name": "To be decided 3",
-      "rank": 0,
+      "id": "SCO",
+      "name": "Scotland",
+      "rank": 29,
+      "disciplinary": 0,
       "flag": {
         "unicode": "",
         "url": "",
@@ -387,9 +410,10 @@
       }
     },
     {
-      "id": "TBD4",
-      "name": "To be decided 4",
-      "rank": 0,
+      "id": "HUN",
+      "name": "Hungary",
+      "rank": 31,
+      "disciplinary": 0,
       "flag": {
         "unicode": "",
         "url": "",
@@ -404,6 +428,7 @@
       "winner": null,
       "runnerup": null,
       "thirdplace": null,
+      "fourthplace": null,
       "matches": [
         {
           "id": 1,
@@ -413,8 +438,8 @@
           "away_team": "ITA",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-12T21:00:00+02:00",
-          "stadium": 3,
+          "date": "2021-06-11T21:00:00+02:00",
+          "stadium": "STA",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -427,8 +452,8 @@
           "away_team": "SUI",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-13T15:00:00+02:00",
-          "stadium": 4,
+          "date": "2021-06-12T15:00:00+02:00",
+          "stadium": "OLY",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -441,8 +466,8 @@
           "away_team": "WAL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-17T18:00:00+02:00",
-          "stadium": 4,
+          "date": "2021-06-16T18:00:00+02:00",
+          "stadium": "OLY",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -455,8 +480,8 @@
           "away_team": "SUI",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-17T21:00:00+02:00",
-          "stadium": 3,
+          "date": "2021-06-16T21:00:00+02:00",
+          "stadium": "STA",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -469,8 +494,8 @@
           "away_team": "TUR",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-21T18:00:00+02:00",
-          "stadium": 4,
+          "date": "2021-06-20T18:00:00+02:00",
+          "stadium": "OLY",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -483,8 +508,8 @@
           "away_team": "WAL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-21T18:00:00+02:00",
-          "stadium": 3,
+          "date": "2021-06-20T18:00:00+02:00",
+          "stadium": "STA",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -497,6 +522,7 @@
       "winner": null,
       "runnerup": null,
       "thirdplace": null,
+      "fourthplace": null,
       "matches": [
         {
           "id": 3,
@@ -506,8 +532,8 @@
           "away_team": "FIN",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-13T18:00:00+02:00",
-          "stadium": 7,
+          "date": "2021-06-12T18:00:00+02:00",
+          "stadium": "PAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -520,8 +546,8 @@
           "away_team": "RUS",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-13T21:00:00+02:00",
-          "stadium": 12,
+          "date": "2021-06-12T21:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -534,8 +560,8 @@
           "away_team": "RUS",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-17T15:00:00+02:00",
-          "stadium": 12,
+          "date": "2021-06-16T15:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -548,8 +574,8 @@
           "away_team": "BEL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-18T18:00:00+02:00",
-          "stadium": 7,
+          "date": "2021-06-17T18:00:00+02:00",
+          "stadium": "PAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -562,8 +588,8 @@
           "away_team": "DEN",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-22T21:00:00+02:00",
-          "stadium": 7,
+          "date": "2021-06-21T21:00:00+02:00",
+          "stadium": "PAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -576,8 +602,8 @@
           "away_team": "BEL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-22T21:00:00+02:00",
-          "stadium": 12,
+          "date": "2021-06-21T21:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -590,17 +616,18 @@
       "winner": null,
       "runnerup": null,
       "thirdplace": null,
+      "fourthplace": null,
       "matches": [
         {
           "id": 6,
           "name": "6",
           "matchtype": "group",
           "home_team": "AUT",
-          "away_team": "TBD4",
+          "away_team": "MAC",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-14T18:00:00+02:00",
-          "stadium": 11,
+          "date": "2021-06-13T18:00:00+02:00",
+          "stadium": "NAT",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -613,8 +640,8 @@
           "away_team": "UKR",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-14T21:00:00+02:00",
-          "stadium": 6,
+          "date": "2021-06-13T21:00:00+02:00",
+          "stadium": "JOH",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -624,11 +651,11 @@
           "name": "18",
           "matchtype": "group",
           "home_team": "UKR",
-          "away_team": "TBD4",
+          "away_team": "MAC",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-18T15:00:00+02:00",
-          "stadium": 11,
+          "date": "2021-06-17T15:00:00+02:00",
+          "stadium": "NAT",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -641,8 +668,8 @@
           "away_team": "AUT",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-18T21:00:00+02:00",
-          "stadium": 6,
+          "date": "2021-06-17T21:00:00+02:00",
+          "stadium": "JOH",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -651,12 +678,12 @@
           "id": 29,
           "name": "29",
           "matchtype": "group",
-          "home_team": "TBD4",
+          "home_team": "MAC",
           "away_team": "NED",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-22T18:00:00+02:00",
-          "stadium": 6,
+          "date": "2021-06-21T18:00:00+02:00",
+          "stadium": "JOH",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -669,8 +696,8 @@
           "away_team": "AUT",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-22T18:00:00+02:00",
-          "stadium": 11,
+          "date": "2021-06-21T18:00:00+02:00",
+          "stadium": "NAT",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -683,6 +710,7 @@
       "winner": null,
       "runnerup": null,
       "thirdplace": null,
+      "fourthplace": null,
       "matches": [
         {
           "id": 7,
@@ -692,8 +720,8 @@
           "away_team": "CRO",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-14T15:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-06-13T15:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -702,12 +730,12 @@
           "id": 8,
           "name": "8",
           "matchtype": "group",
-          "home_team": "TBD3",
+          "home_team": "SCO",
           "away_team": "CZE",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-15T15:00:00+02:00",
-          "stadium": 9,
+          "date": "2021-06-14T15:00:00+02:00",
+          "stadium": "HAM",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -720,8 +748,8 @@
           "away_team": "CZE",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-19T18:00:00+02:00",
-          "stadium": 9,
+          "date": "2021-06-18T18:00:00+02:00",
+          "stadium": "HAM",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -731,11 +759,11 @@
           "name": "20",
           "matchtype": "group",
           "home_team": "ENG",
-          "away_team": "TBD3",
+          "away_team": "SCO",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-19T21:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-06-18T21:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -745,11 +773,11 @@
           "name": "31",
           "matchtype": "group",
           "home_team": "CRO",
-          "away_team": "TBD3",
+          "away_team": "SCO",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-23T21:00:00+02:00",
-          "stadium": 9,
+          "date": "2021-06-22T21:00:00+02:00",
+          "stadium": "HAM",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -762,8 +790,8 @@
           "away_team": "ENG",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-23T21:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-06-22T21:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -776,17 +804,18 @@
       "winner": null,
       "runnerup": null,
       "thirdplace": null,
+      "fourthplace": null,
       "matches": [
         {
           "id": 10,
           "name": "10",
           "matchtype": "group",
           "home_team": "POL",
-          "away_team": "TBD2",
+          "away_team": "SLO",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-15T18:00:00+02:00",
-          "stadium": 8,
+          "date": "2021-06-14T18:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -799,8 +828,8 @@
           "away_team": "SWE",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-15T21:00:00+02:00",
-          "stadium": 10,
+          "date": "2021-06-14T21:00:00+02:00",
+          "stadium": "CAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -810,11 +839,11 @@
           "name": "21",
           "matchtype": "group",
           "home_team": "SWE",
-          "away_team": "TBD2",
+          "away_team": "SLO",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-19T15:00:00+02:00",
-          "stadium": 8,
+          "date": "2021-06-18T15:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -827,8 +856,8 @@
           "away_team": "POL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-20T21:00:00+02:00",
-          "stadium": 10,
+          "date": "2021-06-19T21:00:00+02:00",
+          "stadium": "CAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -837,12 +866,12 @@
           "id": 33,
           "name": "33",
           "matchtype": "group",
-          "home_team": "TBD2",
+          "home_team": "SLO",
           "away_team": "ESP",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-24T18:00:00+02:00",
-          "stadium": 10,
+          "date": "2021-06-23T18:00:00+02:00",
+          "stadium": "CAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -855,8 +884,8 @@
           "away_team": "POL",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-24T18:00:00+02:00",
-          "stadium": 8,
+          "date": "2021-06-23T18:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -869,17 +898,18 @@
       "winner": null,
       "runnerup": null,
       "thirdplace": null,
+      "fourthplace": null,
       "matches": [
         {
           "id": 11,
           "name": "11",
           "matchtype": "group",
-          "home_team": "TBD1",
+          "home_team": "HUN",
           "away_team": "POR",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-16T18:00:00+02:00",
-          "stadium": 5,
+          "date": "2021-06-15T18:00:00+02:00",
+          "stadium": "PUS",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -892,8 +922,8 @@
           "away_team": "GER",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-16T21:00:00+02:00",
-          "stadium": 2,
+          "date": "2021-06-15T21:00:00+02:00",
+          "stadium": "ALL",
           "tvchannels": [],
           "finished": false,
           "matchday": "1"
@@ -902,12 +932,12 @@
           "id": 23,
           "name": "23",
           "matchtype": "group",
-          "home_team": "TBD1",
+          "home_team": "HUN",
           "away_team": "FRA",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-20T15:00:00+02:00",
-          "stadium": 5,
+          "date": "2021-06-19T15:00:00+02:00",
+          "stadium": "PUS",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -920,8 +950,8 @@
           "away_team": "GER",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-20T18:00:00+02:00",
-          "stadium": 2,
+          "date": "2021-06-19T18:00:00+02:00",
+          "stadium": "ALL",
           "tvchannels": [],
           "finished": false,
           "matchday": "2"
@@ -934,8 +964,8 @@
           "away_team": "FRA",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-24T21:00:00+02:00",
-          "stadium": 5,
+          "date": "2021-06-23T21:00:00+02:00",
+          "stadium": "PUS",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -945,11 +975,11 @@
           "name": "36",
           "matchtype": "group",
           "home_team": "GER",
-          "away_team": "TBD1",
+          "away_team": "HUN",
           "home_result": null,
           "away_result": null,
-          "date": "2020-06-24T21:00:00+02:00",
-          "stadium": 2,
+          "date": "2021-06-23T21:00:00+02:00",
+          "stadium": "ALL",
           "tvchannels": [],
           "finished": false,
           "matchday": "3"
@@ -984,8 +1014,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-27T21:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-06-26T21:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1012,8 +1042,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-27T18:00:00+02:00",
-          "stadium": 6,
+          "date": "2021-06-26T18:00:00+02:00",
+          "stadium": "JOH",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1040,8 +1070,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-28T21:00:00+02:00",
-          "stadium": 10,
+          "date": "2021-06-27T21:00:00+02:00",
+          "stadium": "CAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1068,8 +1098,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-28T18:00:00+02:00",
-          "stadium": 5,
+          "date": "2021-06-27T18:00:00+02:00",
+          "stadium": "PUS",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1096,8 +1126,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-29T21:00:00+02:00",
-          "stadium": 11,
+          "date": "2021-06-28T21:00:00+02:00",
+          "stadium": "NAT",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1124,8 +1154,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-29T18:00:00+02:00",
-          "stadium": 7,
+          "date": "2021-06-28T18:00:00+02:00",
+          "stadium": "PAR",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1152,8 +1182,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-30T21:00:00+02:00",
-          "stadium": 9,
+          "date": "2021-06-29T21:00:00+02:00",
+          "stadium": "HAM",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1180,8 +1210,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-06-30T18:00:00+02:00",
-          "stadium": 8,
+          "date": "2021-06-29T18:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "4"
@@ -1214,8 +1244,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-03T18:00:00+02:00",
-          "stadium": 12,
+          "date": "2021-07-02T18:00:00+02:00",
+          "stadium": "KRE",
           "tvchannels": [],
           "finished": false,
           "matchday": "5"
@@ -1242,8 +1272,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-03T21:00:00+02:00",
-          "stadium": 2,
+          "date": "2021-07-02T21:00:00+02:00",
+          "stadium": "ALL",
           "tvchannels": [],
           "finished": false,
           "matchday": "5"
@@ -1270,8 +1300,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-04T18:00:00+02:00",
-          "stadium": 4,
+          "date": "2021-07-03T18:00:00+02:00",
+          "stadium": "OLY",
           "tvchannels": [],
           "finished": false,
           "matchday": "5"
@@ -1298,8 +1328,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-04T21:00:00+02:00",
-          "stadium": 3,
+          "date": "2021-07-03T21:00:00+02:00",
+          "stadium": "STA",
           "tvchannels": [],
           "finished": false,
           "matchday": "5"
@@ -1332,8 +1362,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-07T21:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-07-06T21:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "6"
@@ -1360,8 +1390,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-08T21:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-07-07T21:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "6"
@@ -1394,8 +1424,8 @@
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
-          "date": "2020-07-12T21:00:00+02:00",
-          "stadium": 1,
+          "date": "2021-07-11T21:00:00+02:00",
+          "stadium": "WEM",
           "tvchannels": [],
           "finished": false,
           "matchday": "7"

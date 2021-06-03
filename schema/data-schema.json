@@ -3,13 +3,12 @@
   "$id": "data-schema.json",
   "definitions": {
     "stadiumid": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 12
+      "type": "string",
+      "enum": ["WEM", "ALL", "STA", "OLY", "PUS", "JOH", "PAR", "AVI", "HAM", "CAR", "NAT", "KRE"]
     },
     "teamid": {
       "type": ["string", "null"],
-      "enum": [null, "BEL", "ITA", "ENG", "GER", "ESP", "UKR", "FRA", "POL", "SUI", "CRO", "NED", "RUS", "POR", "TUR", "DEN", "AUT", "SWE", "CZE", "WAL", "FIN", "TBD1", "TBD2", "TBD3", "TBD4"]
+      "enum": [null, "BEL", "ITA", "ENG", "GER", "ESP", "UKR", "FRA", "POL", "SUI", "CRO", "NED", "RUS", "POR", "TUR", "DEN", "AUT", "SWE", "CZE", "WAL", "FIN", "MAC", "SLO", "SCO", "HUN"]
     },
     "stadiumdata": {
       "type": "array",
@@ -116,6 +115,10 @@
             "description": "The team qualification rank",
             "type": "integer"
           },
+          "disciplinary": {
+            "description": "The number of disciplinary points given to the team (yellow card = 1, red card = 3)",
+            "type": "integer"
+          },
           "flag": {
             "type": "object",
             "required": ["unicode", "url", "slackcode"],
@@ -143,7 +146,7 @@
       "maxItems": 6,
       "items": {
         "type": "object",
-        "required": ["id", "winner", "runnerup", "thirdplace", "matches"],
+        "required": ["id", "winner", "runnerup", "thirdplace", "fourthplace", "matches"],
         "properties": {
           "id": {
             "description": "The group ID",
@@ -159,6 +162,10 @@
           },
           "thirdplace": {
             "description": "The thirdplace of the group, when groups are decided",
+            "$ref": "#/definitions/teamid"
+          },
+          "fourthplace": {
+            "description": "The fourthplace of the group, when groups are decided",
             "$ref": "#/definitions/teamid"
           },
           "matches": {
@@ -424,7 +431,7 @@
         },
         "date": {
           "description": "The date of the match",
-          "type": "string"
+          "$ref": "#/definitions/date"
         },
         "stadium": {
           "description": "The ID of the stadium",
@@ -446,6 +453,10 @@
           "type": "string"
         }
       }
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
     }
   },
   "title": "Euro 2020",

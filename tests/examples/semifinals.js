@@ -1,6 +1,6 @@
 const Ajv = require('ajv');
-const data = require('../data.json');
-const schema = require('../schema/data-schema.json');
+const data = require('../../examples/semifinals.json');
+const schema = require('../../schema/data-schema.json');
 
 const ajv = new Ajv();
 const validate = ajv.compile(schema);

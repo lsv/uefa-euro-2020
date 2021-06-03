@@ -1,6 +1,6 @@
-import Ajv from 'ajv';
-import data from '../data.json';
-import schema from '../schema/data-schema.json';
+const Ajv = require('ajv');
+const data = require('../../examples/group_a_finished.json');
+const schema = require('../../schema/data-schema.json');
 
 const ajv = new Ajv();
 const validate = ajv.compile(schema);
