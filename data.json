@@ -382,9 +382,9 @@
       "rank": 30,
       "disciplinary": 0,
       "flag": {
-        "unicode": "",
-        "url": "",
-        "slackcode": ""
+        "unicode": "\uD83C\uDDF2\uD83C\uDDF0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/125px-Flag_of_North_Macedonia.svg.png",
+        "slackcode": ":flag-mk"
       }
     },
     {
@@ -393,9 +393,9 @@
       "rank": 22,
       "disciplinary": 0,
       "flag": {
-        "unicode": "",
-        "url": "",
-        "slackcode": ""
+        "unicode": "\uD83C\uDDF8\uD83C\uDDF0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/125px-Flag_of_Slovakia.svg.png",
+        "slackcode": ":flag-sk"
       }
     },
     {
