@@ -441,7 +441,7 @@
           "date": "2021-06-11T21:00:00+02:00",
           "stadium": "STA",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "1"
         },
         {
