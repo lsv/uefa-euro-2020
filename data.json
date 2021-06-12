@@ -384,7 +384,7 @@
       "flag": {
         "unicode": "\uD83C\uDDF2\uD83C\uDDF0",
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
-        "slackcode": "flag-mk"
+        "slackcode": ":flag-mk:"
       }
     },
     {
@@ -395,7 +395,7 @@
       "flag": {
         "unicode": "\uD83C\uDDF8\uD83C\uDDF0",
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg",
-        "slackcode": "flag-sk"
+        "slackcode": ":flag-sk:"
       }
     },
     {
@@ -406,7 +406,7 @@
       "flag": {
         "unicode": "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F",
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
-        "slackcode": "flag-scotland"
+        "slackcode": ":flag-scotland:"
       }
     },
     {
@@ -417,7 +417,7 @@
       "flag": {
         "unicode": "\uD83C\uDDED\uD83C\uDDFA",
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg",
-        "slackcode": "flag-hu"
+        "slackcode": ":flag-hu:"
       }
     }
   ],
