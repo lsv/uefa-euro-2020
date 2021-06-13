@@ -624,12 +624,12 @@
           "matchtype": "group",
           "home_team": "AUT",
           "away_team": "MAC",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 3,
+          "away_result": 1,
           "date": "2021-06-13T18:00:00+02:00",
           "stadium": "NAT",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "1"
         },
         {
