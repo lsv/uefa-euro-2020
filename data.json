@@ -638,12 +638,12 @@
           "matchtype": "group",
           "home_team": "NED",
           "away_team": "UKR",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 3,
+          "away_result": 2,
           "date": "2021-06-13T21:00:00+02:00",
           "stadium": "JOH",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "1"
         },
         {
