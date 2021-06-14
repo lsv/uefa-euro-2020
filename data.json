@@ -812,12 +812,12 @@
           "matchtype": "group",
           "home_team": "POL",
           "away_team": "SLO",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 2,
           "date": "2021-06-14T18:00:00+02:00",
           "stadium": "KRE",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "1"
         },
         {
