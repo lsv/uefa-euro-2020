@@ -732,12 +732,12 @@
           "matchtype": "group",
           "home_team": "SCO",
           "away_team": "CZE",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 2,
           "date": "2021-06-14T15:00:00+02:00",
           "stadium": "HAM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "1"
         },
         {
