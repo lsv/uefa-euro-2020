@@ -558,12 +558,12 @@
           "matchtype": "group",
           "home_team": "FIN",
           "away_team": "RUS",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 1,
           "date": "2021-06-16T15:00:00+02:00",
           "stadium": "KRE",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "2"
         },
         {
