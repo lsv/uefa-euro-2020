@@ -652,12 +652,12 @@
           "matchtype": "group",
           "home_team": "UKR",
           "away_team": "MAC",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 2,
+          "away_result": 1,
           "date": "2021-06-17T15:00:00+02:00",
           "stadium": "NAT",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "2"
         },
         {
