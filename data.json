@@ -746,12 +746,12 @@
           "matchtype": "group",
           "home_team": "CRO",
           "away_team": "CZE",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 1,
           "date": "2021-06-18T18:00:00+02:00",
           "stadium": "HAM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "2"
         },
         {
@@ -760,12 +760,12 @@
           "matchtype": "group",
           "home_team": "ENG",
           "away_team": "SCO",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 0,
           "date": "2021-06-18T21:00:00+02:00",
           "stadium": "WEM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "2"
         },
         {
