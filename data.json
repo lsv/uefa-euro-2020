@@ -840,12 +840,12 @@
           "matchtype": "group",
           "home_team": "SWE",
           "away_team": "SLO",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 0,
           "date": "2021-06-18T15:00:00+02:00",
           "stadium": "KRE",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "2"
         },
         {
