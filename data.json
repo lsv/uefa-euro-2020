@@ -492,12 +492,12 @@
           "matchtype": "group",
           "home_team": "SUI",
           "away_team": "TUR",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 3,
+          "away_result": 1,
           "date": "2021-06-20T18:00:00+02:00",
           "stadium": "OLY",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         },
         {
@@ -506,12 +506,12 @@
           "matchtype": "group",
           "home_team": "ITA",
           "away_team": "WAL",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 0,
           "date": "2021-06-20T18:00:00+02:00",
           "stadium": "STA",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         }
       ]
