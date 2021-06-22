@@ -707,10 +707,10 @@
     {
       "id": "d",
       "name": "Group D",
-      "winner": null,
-      "runnerup": null,
-      "thirdplace": null,
-      "fourthplace": null,
+      "winner": "ENG",
+      "runnerup": "CRO",
+      "thirdplace": "CZE",
+      "fourthplace": "SCO",
       "matches": [
         {
           "id": 7,
@@ -774,12 +774,12 @@
           "matchtype": "group",
           "home_team": "CRO",
           "away_team": "SCO",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 3,
+          "away_result": 1,
           "date": "2021-06-22T21:00:00+02:00",
           "stadium": "HAM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         },
         {
@@ -788,12 +788,12 @@
           "matchtype": "group",
           "home_team": "CZE",
           "away_team": "ENG",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 1,
           "date": "2021-06-22T21:00:00+02:00",
           "stadium": "WEM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         }
       ]
