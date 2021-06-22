@@ -1007,8 +1007,8 @@
               "group": "c"
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "ITA",
+          "away_team": "AUT",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1035,8 +1035,8 @@
               "group": "b"
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "WAL",
+          "away_team": "DEN",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1063,7 +1063,7 @@
               "group": "A/D/E/F"
             }
           },
-          "home_team": null,
+          "home_team": "BEL",
           "away_team": null,
           "home_result": null,
           "away_result": null,
@@ -1091,7 +1091,7 @@
               "group": "D/E/F"
             }
           },
-          "home_team": null,
+          "home_team": "NED",
           "away_team": null,
           "home_result": null,
           "away_result": null,
