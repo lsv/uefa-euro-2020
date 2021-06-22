@@ -425,10 +425,10 @@
     {
       "id": "a",
       "name": "Group A",
-      "winner": null,
-      "runnerup": null,
-      "thirdplace": null,
-      "fourthplace": null,
+      "winner": "ITA",
+      "runnerup": "WAL",
+      "thirdplace": "SUI",
+      "fourthplace": "TUR",
       "matches": [
         {
           "id": 1,
@@ -519,10 +519,10 @@
     {
       "id": "b",
       "name": "Group B",
-      "winner": null,
-      "runnerup": null,
-      "thirdplace": null,
-      "fourthplace": null,
+      "winner": "BEL",
+      "runnerup": "DEN",
+      "thirdplace": "FIN",
+      "fourthplace": "RUS",
       "matches": [
         {
           "id": 3,
@@ -613,10 +613,10 @@
     {
       "id": "c",
       "name": "Group C",
-      "winner": null,
-      "runnerup": null,
-      "thirdplace": null,
-      "fourthplace": null,
+      "winner": "NED",
+      "runnerup": "AUT",
+      "thirdplace": "UKR",
+      "fourthplace": "MAC",
       "matches": [
         {
           "id": 6,
