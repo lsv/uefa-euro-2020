@@ -586,12 +586,12 @@
           "matchtype": "group",
           "home_team": "RUS",
           "away_team": "DEN",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 4,
           "date": "2021-06-21T21:00:00+02:00",
           "stadium": "PAR",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         },
         {
@@ -600,12 +600,12 @@
           "matchtype": "group",
           "home_team": "FIN",
           "away_team": "BEL",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 2,
           "date": "2021-06-21T21:00:00+02:00",
           "stadium": "KRE",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         }
       ]
