@@ -895,10 +895,10 @@
     {
       "id": "f",
       "name": "Group F",
-      "winner": null,
-      "runnerup": null,
-      "thirdplace": null,
-      "fourthplace": null,
+      "winner": "FRA",
+      "runnerup": "GER",
+      "thirdplace": "POR",
+      "fourthplace": "HUN",
       "matches": [
         {
           "id": 11,
@@ -1052,7 +1052,7 @@
           "id": 39,
           "name": "39",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1064,7 +1064,7 @@
             }
           },
           "home_team": "BEL",
-          "away_team": null,
+          "away_team": "POR",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1080,7 +1080,7 @@
           "id": 40,
           "name": "40",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1092,7 +1092,7 @@
             }
           },
           "home_team": "NED",
-          "away_team": null,
+          "away_team": "CZE",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1108,7 +1108,7 @@
           "id": 41,
           "name": "41",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1119,8 +1119,8 @@
               "group": "A/B/C"
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "FRA",
+          "away_team": "SUI",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1136,7 +1136,7 @@
           "id": 42,
           "name": "42",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "runnerup",
@@ -1147,8 +1147,8 @@
               "group": "e"
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "CRO",
+          "away_team": "ESP",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1164,7 +1164,7 @@
           "id": 43,
           "name": "43",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1175,8 +1175,8 @@
               "group": "A/B/C/D"
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "SWE",
+          "away_team": "UKR",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
@@ -1192,7 +1192,7 @@
           "id": 44,
           "name": "44",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1203,8 +1203,8 @@
               "group": "f"
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "ENG",
+          "away_team": "GER",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
