@@ -801,10 +801,10 @@
     {
       "id": "e",
       "name": "Group E",
-      "winner": null,
-      "runnerup": null,
-      "thirdplace": null,
-      "fourthplace": null,
+      "winner": "SWE",
+      "runnerup": "ESP",
+      "thirdplace": "SLO",
+      "fourthplace": "POL",
       "matches": [
         {
           "id": 10,
@@ -868,12 +868,12 @@
           "matchtype": "group",
           "home_team": "SLO",
           "away_team": "ESP",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 5,
           "date": "2021-06-23T18:00:00+02:00",
           "stadium": "CAR",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         },
         {
@@ -882,12 +882,12 @@
           "matchtype": "group",
           "home_team": "SWE",
           "away_team": "POL",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 3,
+          "away_result": 2,
           "date": "2021-06-23T18:00:00+02:00",
           "stadium": "KRE",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "3"
         }
       ]
