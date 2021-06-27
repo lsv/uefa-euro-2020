@@ -1282,7 +1282,7 @@
           "id": 47,
           "name": "47",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1293,8 +1293,8 @@
               "match": 38
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "CZE",
+          "away_team": "DEN",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
