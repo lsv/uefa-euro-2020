@@ -1254,7 +1254,7 @@
           "id": 46,
           "name": "46",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1265,8 +1265,8 @@
               "match": 37
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "BEL",
+          "away_team": "ITA",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
