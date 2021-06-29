@@ -1177,15 +1177,15 @@
           },
           "home_team": "SWE",
           "away_team": "UKR",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 2,
           "home_penalty": null,
           "away_penalty": null,
-          "winner": null,
+          "winner": "UKR",
           "date": "2021-06-29T21:00:00+02:00",
           "stadium": "HAM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "4"
         },
         {
@@ -1310,7 +1310,7 @@
           "id": 48,
           "name": "48",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1321,8 +1321,8 @@
               "match": 44
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "UKR",
+          "away_team": "ENG",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
