@@ -1239,15 +1239,15 @@
           },
           "home_team": "SUI",
           "away_team": "ESP",
-          "home_result": null,
-          "away_result": null,
-          "home_penalty": null,
-          "away_penalty": null,
-          "winner": null,
+          "home_result": 1,
+          "away_result": 1,
+          "home_penalty": 1,
+          "away_penalty": 3,
+          "winner": "ESP",
           "date": "2021-07-02T18:00:00+02:00",
           "stadium": "KRE",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "5"
         },
         {
@@ -1267,15 +1267,15 @@
           },
           "home_team": "BEL",
           "away_team": "ITA",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 2,
           "home_penalty": null,
           "away_penalty": null,
-          "winner": null,
+          "winner": "ITA",
           "date": "2021-07-02T21:00:00+02:00",
           "stadium": "ALL",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "5"
         },
         {
@@ -1344,7 +1344,7 @@
           "id": 49,
           "name": "49",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1355,8 +1355,8 @@
               "match": 45
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "ESP",
+          "away_team": "ITA",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
