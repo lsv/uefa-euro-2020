@@ -1323,15 +1323,15 @@
           },
           "home_team": "UKR",
           "away_team": "ENG",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 0,
+          "away_result": 4,
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
           "date": "2021-07-03T21:00:00+02:00",
           "stadium": "STA",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "5"
         }
       ]
@@ -1372,7 +1372,7 @@
           "id": 50,
           "name": "50",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1383,8 +1383,8 @@
               "match": 47
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "DEN",
+          "away_team": "ENG",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
