@@ -1357,15 +1357,15 @@
           },
           "home_team": "ESP",
           "away_team": "ITA",
-          "home_result": null,
-          "away_result": null,
-          "home_penalty": null,
-          "away_penalty": null,
-          "winner": null,
+          "home_result": 1,
+          "away_result": 1,
+          "home_penalty": 2,
+          "away_penalty": 4,
+          "winner": "ITA",
           "date": "2021-07-06T21:00:00+02:00",
           "stadium": "WEM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "6"
         },
         {
@@ -1417,7 +1417,7 @@
               "match": 50
             }
           },
-          "home_team": null,
+          "home_team": "ITA",
           "away_team": null,
           "home_result": null,
           "away_result": null,
