@@ -1417,7 +1417,7 @@
               "match": 50
             }
           },
-          "home_team": "ITA",
+          "home_team": null,
           "away_team": null,
           "home_result": null,
           "away_result": null,
