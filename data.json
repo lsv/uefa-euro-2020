@@ -1385,15 +1385,15 @@
           },
           "home_team": "DEN",
           "away_team": "ENG",
-          "home_result": null,
-          "away_result": null,
+          "home_result": 1,
+          "away_result": 2,
           "home_penalty": null,
           "away_penalty": null,
           "winner": null,
           "date": "2021-07-07T21:00:00+02:00",
           "stadium": "WEM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "6"
         }
       ]
@@ -1406,7 +1406,7 @@
           "id": 51,
           "name": "51",
           "matchtype": "knockout",
-          "teams_found": false,
+          "teams_found": true,
           "qualification": {
             "home_team": {
               "qualificationtype": "winner",
@@ -1417,8 +1417,8 @@
               "match": 50
             }
           },
-          "home_team": null,
-          "away_team": null,
+          "home_team": "ITA",
+          "away_team": "ENG",
           "home_result": null,
           "away_result": null,
           "home_penalty": null,
