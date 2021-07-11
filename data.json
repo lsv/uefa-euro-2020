@@ -1419,15 +1419,15 @@
           },
           "home_team": "ITA",
           "away_team": "ENG",
-          "home_result": null,
-          "away_result": null,
-          "home_penalty": null,
-          "away_penalty": null,
-          "winner": null,
+          "home_result": 1,
+          "away_result": 1,
+          "home_penalty": 3,
+          "away_penalty": 2,
+          "winner": "ITA",
           "date": "2021-07-11T21:00:00+02:00",
           "stadium": "WEM",
           "tvchannels": [],
-          "finished": false,
+          "finished": true,
           "matchday": "7"
         }
       ]
